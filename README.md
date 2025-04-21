@@ -27,3 +27,4 @@
 - Status Bar - `Waybar`
 - Wallpaper Manager - `swww`
 - Web Browsers - `Brave` `Ungoogled chromium`
+  
