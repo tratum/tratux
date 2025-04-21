@@ -11,7 +11,7 @@
 - Terminal Font - `Mononoki Nerd Font`
 
 #### List Of Applications Used
-- Window Manager - `Sway`
+- Window Manager/Tiling Compositor - `Sway`
 - Terminal - `Alacritty`
 - PDF Viewer - `Papers`
 - Application Launcher - `Rofi`
