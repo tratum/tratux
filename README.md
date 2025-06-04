@@ -21,11 +21,9 @@
 - Notification Daemon - `Dunst`
 - Screen Lock - `Hyprlock`
 - Screen Idle - `HyprIdle`
-- Image Viewer - `Viewnior`
+- Image Viewer - `gThumb`
 - Screenshot Tools - `grim/slurp`
 - Color Palette Generator - `Wallust`
 - Status Bar - `Waybar`
 - Wallpaper Manager - `swww`
 - Web Browsers - `Brave` `Ungoogled chromium`
-- Volume Control - `Pavucontrol`
-  
