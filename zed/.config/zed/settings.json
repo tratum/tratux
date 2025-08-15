@@ -13,7 +13,7 @@
   "buffer_font_size": 20,
   "theme": {
     "mode": "system",
-    "light": "Dawnfox",
+    "light": "Dawnfox - blurred",
     "dark": "Colorizer"
   },
   "icon_theme": "Material Icon Theme",
@@ -46,7 +46,7 @@
       "breadcrumbs": false
     },
     "shell": {
-          "program": "zsh"
+      "program": "zsh"
     },
     "line_height": "comfortable",
     "blinking": "on",

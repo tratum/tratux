@@ -46,7 +46,7 @@
       "class<android-studio>": " "
     }
   },
-  
+
   "sway/workspaces#2": {
     "show-special": false,
     "on-click": "activate",
@@ -69,7 +69,7 @@
       "default": ""
     }
   },
-  
+
 "clock": {
   "markup": "pango",
   "locale": "en_US.UTF-8",
@@ -88,9 +88,12 @@
     "format-icons": {
         "activated": "󰈈",
         "deactivated": "󰈉"
-    }
+    },
+    "tooltip": true,
+    "tooltip-format-activated": "Staying Awake",
+    "tooltip-format-deactivated": "Sleeping"
 },
-  
+
   "battery": {
     "markup": "pango",
     "format": "{icon}",
@@ -120,7 +123,7 @@
     "tooltip": true,
     "tooltip-format": "Battery: {capacity}%\n{timeTo}"
   },
-  
+
   "pulseaudio": {
     "markup": "pango",
     "format": "{icon}  {volume}%",
@@ -144,7 +147,7 @@
     "on-scroll-up": "$HOME/.config/sway/scripts/volume.sh --dec",
     "smooth-scrolling-threshold": 1
   },
-  
+
 "pulseaudio#microphone": {
     "markup": "pango",
     "format": "{format_source} ",
@@ -170,7 +173,7 @@
       "power-saver": "<span font_desc='16'></span>"
     }
   },
-  
+
   "network": {
     "nospacing": 1,
     "interval": 5,
@@ -190,33 +193,34 @@
     "tooltip-format-ethernet": "󰀂   {ifname}\n⇣ {bandwidthDownBytes}  ⇡ {bandwidthUpBytes}\nStrength: {signalStrength}%",
     "on-click": "env XDG_CURRENT_DESKTOP=GNOME gnome-control-center wifi"
   },
-  
+
   "bluetooth": {
     "markup": "pango",
     "format": "<span font_desc='18'>󰂱</span>",
     "format-disabled": "<span font_desc='18'>󰂲</span>",
-    "format-connected": "󰂱 {num_connections}",
+    "format-connected": "󰥰 {num_connections}",
     "tooltip-format": "󰂱  {device_alias}",
     "tooltip-format-connected": "{device_enumerate}",
+    "tooltip-format-disabled": "  Disabled",
     "tooltip-format-enumerate-connected": "  {device_alias}  󰂄  {device_battery_percentage}%",
     "tooltip": true,
     "on-click": ".config/sway/scripts/bluetooth.sh",
     "on-click-right": "blueman-manager"
 },
-  
+
   "tray": {
     "icon-size": 28,
     "spacing": 4,
     "show-passive-items": false
-  },  
-  
+  },
+
   "custom/power-menu": {
     "markup": "pango",
     "format": "<span font_desc='17'> </span>",
     "tooltip": false,
     "on-click": "$HOME/.config/PowerMenu/powermenu.sh &"
   },
-  
+
   "custom/dunst": {
     "markup": "pango",
     "format": "<span font_desc='16'></span>  {}",
@@ -227,7 +231,7 @@
     "on-click": "dunstctl close-all",
     "on-click-right": "dunstctl history-pop"
 },
-  
+
   "custom/wallpaper-cycle": {
     "format": " ",
     "on-click": "$HOME/.config/WallpaperSelector/WallpaperSelector.sh",
@@ -235,14 +239,14 @@
     "tooltip": true,
     "tooltip-format": "Left Click: Random wallpaper\nRight Click: Wallpaper Menu"
   },
-  
+
   "custom/light-dark-mode": {
     "format": "󰃟 ",
     "tooltip": true,
     "tooltip-format": "Dark/Light Mode",
     "on-click": "sh -c 'if [ \"$(cat $HOME/.config/.current_theme)\" = \"dark\" ]; then $HOME/.config/sway/scripts/theme.sh -l; else $HOME/.config/sway/scripts/theme.sh -d; fi'"
   },
-  
+
   "custom/weather": {
     "format": "{}",
     "format-alt": "{alt}",
@@ -253,7 +257,7 @@
     "exec-if": "ping openweathermap.org -c1",
     "signal": 8
   },
-  
+
   "custom/battery#1": {
     "full-at": 100,
     "design-capacity": false,
@@ -285,7 +289,7 @@
     "tooltip": true,
     "tooltip-format": "{timeTo} {power}w"
   },
-  
+
   "custom/battery#2": {
     "format": "{icon}   {capacity}%",
     "format-icons": {
@@ -324,7 +328,7 @@
     "tooltip": true,
     "tooltip-format": "{timeTo} {power}w"
   },
-  
+
 "custom/swaync": {
   "markup": "pango",
   "tooltip": true,
@@ -367,37 +371,37 @@
     "on-click": "$HOME/.config/sway/scripts/wifi.sh",
     "on-click-right": "nm-connection-editor"
   },
-  
+
   "custom/separator#dot": {
     "format": "",
     "interval": "once",
     "tooltip": false
   },
-  
+
   "custom/separator#dot-line": {
     "format": "",
     "interval": "once",
     "tooltip": false
   },
-  
+
   "custom/separator#line": {
     "format": "|",
     "interval": "once",
     "tooltip": false
   },
-  
+
   "custom/separator#blank": {
     "format": "",
     "interval": "once",
     "tooltip": false
   },
-  
+
   "custom/separator#blank_2": {
     "format": "  ",
     "interval": "once",
     "tooltip": false
   },
-  
+
   "custom/separator#blank_3": {
     "format": "   ",
     "interval": "once",

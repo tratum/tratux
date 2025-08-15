@@ -24,7 +24,7 @@
 window#waybar {
   background-color: transparent;
   border-radius: 2px;
-  color: whitesmoke;  
+  color: whitesmoke;
 }
 
 window#waybar.hidden {
@@ -50,14 +50,13 @@ window#waybar.hidden {
   transition: all 0.5s;
 }
 
-
 #workspaces button.active {
   color: #268bd2;
-  transition: all 0.3s; 
+  transition: all 0.3s;
 }
 
 #workspaces button.focused {
-	color: #268bd2;
+  color: #268bd2;
   /*animation: blink 1.5s infinite;*/
 }
 
@@ -79,7 +78,7 @@ window#waybar.hidden {
   color: whitesmoke;
   background-color: black;
   border-radius: 50px 0 0 50px;
-  padding: 6px 12px 6px 24px; 
+  padding: 6px 12px 6px 24px;
   margin: 4px 0 4px 0;
 }
 
@@ -89,7 +88,7 @@ window#waybar.hidden {
   font-size: 26px;
   border-radius: 0px;
   padding: 6px 18px 6px 0;
-  margin: 4px 0 4px 0; 
+  margin: 4px 0 4px 0;
 }
 
 #idle_inhibitor {
@@ -128,11 +127,27 @@ window#waybar.hidden {
 }
 
 #network.disconnected {
-  color: #fb958b;
+  color: #9e9e9e;
 }
 
 #bluetooth {
   color: white;
+  background-color: black;
+  padding: 4px 14px 4px 28px; /* top/right/bottom/left */
+  border-radius: 50px 0 0 50px;
+  margin: 4px 0 4px 10px;
+}
+
+#bluetooth.connected {
+  color: #268bd2;
+  background-color: black;
+  padding: 4px 14px 4px 28px; /* top/right/bottom/left */
+  border-radius: 50px 0 0 50px;
+  margin: 4px 0 4px 10px;
+}
+
+#bluetooth.disabled {
+  color: #9e9e9e;
   background-color: black;
   padding: 4px 14px 4px 28px; /* top/right/bottom/left */
   border-radius: 50px 0 0 50px;
@@ -158,12 +173,16 @@ window#waybar.hidden {
 #battery {
   background-color: black;
   border-radius: 50px 0 0 50px;
-  padding: 0 26px 0 26px; 
+  padding: 0 26px 0 26px;
   margin: 4px 0 4px 10px;
 }
 
-#battery.critical,
-#battery.warning,
+#battery.critical {
+  color: #d32f2f;
+}
+#battery.warning {
+  color: #f39c12;
+}
 #battery.full {
   color: #268bd2;
 }
@@ -172,13 +191,13 @@ window#waybar.hidden {
 }
 #battery.charging {
   color: #87bb82;
-  padding: 0 10px 0 26px; 
+  padding: 0 10px 0 26px;
 }
 
-#power-profiles-daemon{
+#power-profiles-daemon {
   background-color: black;
   border-radius: 0px;
-  padding: 0 16px 0 16px; 
+  padding: 0 16px 0 16px;
   margin: 4px 0 4px 0;
 }
 

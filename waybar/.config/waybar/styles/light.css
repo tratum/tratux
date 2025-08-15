@@ -33,7 +33,7 @@ window#waybar.hidden {
 
 /* Workspaces Module (sway/workspaces#1) */
 #workspaces {
-  background-color: #DBDBDB;
+  background-color: #dbdbdb;
   border-radius: 50px;
   padding: 8px 12px;
   margin: 4px 10px;
@@ -50,14 +50,13 @@ window#waybar.hidden {
   transition: all 0.5s;
 }
 
-
 #workspaces button.active {
   color: #268bd2;
-  transition: all 0.3s; 
+  transition: all 0.3s;
 }
 
 #workspaces button.focused {
-	color: #268bd2;
+  color: #268bd2;
   /*animation: blink 1.5s infinite;*/
 }
 
@@ -77,24 +76,24 @@ window#waybar.hidden {
 
 #custom-wallpaper-cycle {
   color: black;
-  background-color: #DBDBDB;
+  background-color: #dbdbdb;
   border-radius: 50px 0 0 50px;
-  padding: 6px 12px 6px 24px; 
+  padding: 6px 12px 6px 24px;
   margin: 4px 0 4px 0;
 }
 
 #custom-light-dark-mode {
   color: black;
-  background-color: #DBDBDB;
+  background-color: #dbdbdb;
   font-size: 26px;
   border-radius: 0px;
   padding: 6px 18px 6px 0;
-  margin: 4px 0 4px 0; 
+  margin: 4px 0 4px 0;
 }
 
 #idle_inhibitor {
   color: black;
-  background-color: #DBDBDB;
+  background-color: #dbdbdb;
   padding: 6px 32px 6px 0px;
   border-radius: 0 50px 50px 0;
   margin: 4px 0 4px 0;
@@ -103,7 +102,7 @@ window#waybar.hidden {
 
 #clock {
   color: black;
-  background-color: #DBDBDB;
+  background-color: #dbdbdb;
   border-radius: 50px 0 0 50px;
   padding: 6px 16px 6px 10px;
   margin: 4px 0 4px 0;
@@ -112,7 +111,7 @@ window#waybar.hidden {
 
 #custom-dunst {
   color: black;
-  background-color: #DBDBDB;
+  background-color: #dbdbdb;
   border-radius: 0 50px 50px 0;
   margin: 4px 0 4px 0;
   padding: 6px 24px 6px 0;
@@ -121,19 +120,27 @@ window#waybar.hidden {
 
 #network {
   color: #268bd2;
-  background-color: #DBDBDB;
+  background-color: #dbdbdb;
   border-radius: 50px;
   padding: 0 24px 0 24px;
   margin: 4px 10px;
 }
 
 #network.disconnected {
-  color: #fb958b;
+  color: #9e9e9e;
 }
 
 #bluetooth {
   color: black;
-  background-color: #DBDBDB;
+  background-color: #dbdbdb;
+  padding: 4px 14px 4px 28px; /* top/right/bottom/left */
+  border-radius: 50px 0 0 50px;
+  margin: 4px 0 4px 10px;
+}
+
+#bluetooth.disabled {
+  color: #9e9e9e;
+  background-color: #dbdbdb;
   padding: 4px 14px 4px 28px; /* top/right/bottom/left */
   border-radius: 50px 0 0 50px;
   margin: 4px 0 4px 10px;
@@ -141,7 +148,7 @@ window#waybar.hidden {
 
 #pulseaudio {
   color: #a55377;
-  background-color: #DBDBDB;
+  background-color: #dbdbdb;
   padding: 4px 14px 4px 14px; /* top/right/bottom/left */
   border-radius: 0px;
   margin: 4px 0 4px 0;
@@ -149,7 +156,7 @@ window#waybar.hidden {
 
 #pulseaudio.microphone {
   color: #a55377;
-  background-color: #DBDBDB;
+  background-color: #dbdbdb;
   padding: 4px 32px 4px 14px; /* top/right/bottom/left */
   border-radius: 0 50px 50px 0;
   margin: 4px 10px 4px 0;
@@ -157,14 +164,18 @@ window#waybar.hidden {
 
 #battery {
   color: black;
-  background-color: #DBDBDB;
+  background-color: #dbdbdb;
   border-radius: 50px 0 0 50px;
-  padding: 0 26px 0 26px; 
+  padding: 0 26px 0 26px;
   margin: 4px 0 4px 10px;
 }
 
-#battery.critical,
-#battery.warning,
+#battery.critical {
+  color: #e53935;
+}
+#battery.warning {
+  color: #f39c12;
+}
 #battery.full {
   color: #268bd2;
 }
@@ -173,20 +184,20 @@ window#waybar.hidden {
 }
 #battery.charging {
   color: #87bb82;
-  padding: 0 10px 0 26px; 
+  padding: 0 10px 0 26px;
 }
 
-#power-profiles-daemon{
+#power-profiles-daemon {
   color: black;
-  background-color: #DBDBDB;
+  background-color: #dbdbdb;
   border-radius: 0px;
-  padding: 0 16px 0 16px; 
+  padding: 0 16px 0 16px;
   margin: 4px 0 4px 0;
 }
 
 #custom-power-menu {
   color: #a55377;
-  background-color: #DBDBDB;
+  background-color: #dbdbdb;
   border-radius: 0 50px 50px 0;
   padding: 0px 26px 0 24px;
   margin: 4px 10px 4px 0px;
