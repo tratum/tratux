@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" version="1.1" viewBox="0 0 16.933 16.933" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient7095" x1="8.1762" x2="14.531" y1="6.6608" y2="13.441" gradientTransform="matrix(1 0 0 1 11.425 1.5968)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4928"/>
+  <linearGradient id="linearGradient4928" x1="75.494" x2="116.38" y1="-77.894" y2="-77.894" gradientTransform="translate(-21.671,-25)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#16326f" offset="0"/>
+   <stop stop-color="#2f60bf" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient7103" x1="9.5028" x2="13.132" y1="2.4446" y2="6.1756" gradientTransform="matrix(1 0 0 1 11.425 1.5968)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4928"/>
+  <filter id="filter3686" x="-.12552" y="-.11476" width="1.251" height="1.2295" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="0.44278731"/>
+  </filter>
+  <linearGradient id="linearGradient3695" x1="2.416" x2="10.996" y1="6.6358" y2="15.82" gradientTransform="matrix(1 0 0 1 11.425 1.5968)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1058"/>
+  <linearGradient id="linearGradient1058" x1="-183.26" x2="-133.33" y1="-122.79" y2="-134.57" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#3c8cff" offset="0"/>
+   <stop stop-color="#55b4ff" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient3703" x1="4.2087" x2="9.1676" y1="1.038" y2="5.9529" gradientTransform="matrix(1 0 0 1 11.425 1.5968)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1058"/>
+  <linearGradient id="linearGradient1448" x1="3.9687" x2="3.9687" y1="8.9776" y2=".54085" gradientTransform="matrix(.91668 0 0 .91668 .70543 .70543)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#dcdcdc" offset="0"/>
+   <stop stop-color="#f0f0f0" offset="1"/>
+  </linearGradient>
+ </defs>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <rect x="1.1905" y="1.1905" width="14.552" height="14.552" ry="3.4396" fill="url(#linearGradient1448)" stroke-opacity=".95294" stroke-width=".083154"/>
+ <g transform="matrix(.79707 0 0 .79707 -7.3879 .44522)">
+  <path d="m19.998 8.1549c-0.11001 0-0.2094 0.044184-0.28119 0.11596-0.07178 0.071789-0.11596 0.17117-0.11596 0.28119v3.4751c0 1.7051 1.3727 3.078 3.078 3.078h0.19857c1.7051 0 3.078-1.3727 3.078-3.078v-3.4751c0-0.11001-0.04418-0.2094-0.11596-0.28119-0.07178-0.071781-0.17117-0.11596-0.28119-0.11596z" fill="url(#linearGradient7095)" stroke-width=".75054"/>
+  <circle cx="22.778" cy="5.8711" r="1.8864" fill="url(#linearGradient7103)" stroke-width=".75054"/>
+  <path transform="matrix(.90722 0 0 .8574 22.712 34.542)" d="m-8.2019-30.162c-0.14658 0-0.279 0.05887-0.37465 0.15451-0.09564 0.09565-0.15451 0.22807-0.15451 0.37465v4.6301c0 2.2719 1.829 4.101 4.101 4.101h0.26458c2.2719 0 4.101-1.829 4.101-4.101v-4.6301c0-0.14658-0.05886-0.279-0.15451-0.37465-0.09564-0.09564-0.22807-0.15451-0.37465-0.15451z" filter="url(#filter3686)" opacity=".5"/>
+  <path d="m14.406 8.1554c-0.14668 0-0.27921 0.058912-0.37492 0.15462-0.09571 0.095719-0.15462 0.22823-0.15462 0.37492v4.6334c0 2.2735 1.8303 4.104 4.104 4.104h0.26478c2.2735 0 4.104-1.8303 4.104-4.104v-4.6334c0-0.14668-0.0589-0.27921-0.15462-0.37492-0.09571-0.095709-0.22823-0.15462-0.37492-0.15462z" fill="url(#linearGradient3695)" stroke-width="1.0007"/>
+  <circle cx="18.113" cy="5.1102" r="2.5153" fill="url(#linearGradient3703)" stroke-width="1.0007"/>
+ </g>
+</svg>

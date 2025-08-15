@@ -1,0 +1,374 @@
+{
+  "sway/workspaces": {
+    "show-special": false,
+    "on-click": "activate",
+    "disable-scroll": true,
+    "all-outputs": true,
+    "sort-by-number": true,
+    "format": "{icon}",
+    "format-icons": {
+      "focused": "",
+      "default": ""
+    }
+  },
+
+  "sway/workspaces#1": {
+    "show-special": false,
+    "on-click": "activate",
+    "disable-scroll": true,
+    "all-outputs": true,
+    "sort-by-number": true,
+    "format": "{icon} {windows}",
+    "format-window-separator": " ",
+    "window-rewrite-default": "",
+    "window-rewrite": {
+      "title<.*youtube.*>": " ",
+      "title<.*amazon.*>": " ",
+      "title<.*reddit.*>": " ",
+      "title<.*Picture-in-Picture.*>": " ",
+      "class<firefox>": " ",
+      "class<kitty>": " ",
+      "class<konsole>": " ",
+      "class<thunar>": "󰝰 ",
+      "class<discord>": " ",
+      "class<WebCord>": " ",
+      "class<sublime>": "󰅳 ",
+      "class<celluloid>": " ",
+      "class<Cider>": "󰎆 ",
+      "class<code-oss>": "󰨞 ",
+      "class<codium|codium-url-handler|VSCodium>": "󰨞 ",
+      "class<codeblocks>": "󰅩 ",
+      "class<mousepad>": " ",
+      "class<libreoffice-writer>": " ",
+      "class<libreoffice-startcenter>": "󰏆 ",
+      "class<brave>": " ",
+      "class<chromium>": " ",
+      "class<android-studio>": " "
+    }
+  },
+  
+  "sway/workspaces#2": {
+    "show-special": false,
+    "on-click": "activate",
+    "disable-scroll": true,
+    "all-outputs": true,
+    "sort-by-number": true,
+    "format": " {name} {icon} ",
+    "format-icons": {
+      "1": " ",
+      "2": " ",
+      "3": " ",
+      "4": " ",
+      "5": " ",
+      "6": " ",
+      "7": "",
+      "8": " ",
+      "9": "",
+      "10": "10",
+      "focused": "",
+      "default": ""
+    }
+  },
+  
+"clock": {
+  "markup": "pango",
+  "locale": "en_US.UTF-8",
+  "format": "      {:%I:%M %p} ",
+  "format-alt": "     {:%a, %d %b %Y} ",
+  "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+  "calendar": {
+    "format": {
+      "today": "<span foreground='#B22222'><b>{}</b></span>"
+    }
+  }
+},
+  
+  "battery": {
+    "markup": "pango",
+    "format": "{icon}",
+    "format-icons": {
+      "charging": [
+        "<span font_desc='20'> </span><span font_desc='10'>󱐋</span>",
+        "<span font_desc='20'> </span><span font_desc='10'>󱐋</span>",
+        "<span font_desc='20'> </span><span font_desc='10'>󱐋</span>",
+        "<span font_desc='20'> </span><span font_desc='10'>󱐋</span>",
+        "<span font_desc='20'> </span><span font_desc='10'>󱐋</span>"
+      ],
+      "default": [
+        "<span font_desc='20'></span>",
+        "<span font_desc='20'></span>",
+        "<span font_desc='20'></span>",
+        "<span font_desc='20'></span>",
+        "<span font_desc='20'></span>"
+      ]
+    },
+    "interval": 5,
+    "states": {
+      "warning": 25,
+      "critical": 10
+    },
+    "format-alt-click": "click",
+    "format-time": "{H}h {M}min",
+    "tooltip": true,
+    "tooltip-format": "Battery: {capacity}%\n{timeTo}"
+  },
+  
+  "pulseaudio": {
+    "markup": "pango",
+    "format": "{icon}  {volume}%",
+    "nospacing": 1,
+    "tooltip-format": "Volume : {volume}%",
+    "format-muted": "<span font_desc='22'>󰸈</span>",
+    "format-icons": {
+      "headphone": " ",
+      "hands-free": "",
+      "default": [
+        "󰕿 ",
+        "󰖀 ",
+        "󰕾 ",
+        "   "
+      ]
+    },
+    "scroll-step": 1,
+    "on-click-right": "pavucontrol",
+    "on-click": "~/.config/sway/scripts/volume.sh --toggle",
+    "on-scroll-up": "~/.config/sway/scripts/volume.sh --inc",
+    "on-scroll-down": "~/.config/sway/scripts/volume.sh --dec",
+    "smooth-scrolling-threshold": 1
+  },
+  
+"pulseaudio#microphone": {
+    "markup": "pango",
+    "format": "{format_source} ",
+    "format-source": "   {volume}%",
+    "format-source-muted": "<span font_desc='16'></span>",
+    "on-click-right": "pavucontrol -t 4",
+    "on-click": "~/.config/sway/scripts/volume.sh --toggle-mic",
+    "tooltip-format": "{source_desc} | {source_volume}%",
+    "scroll-step": 1,
+    "on-scroll-up": "~/.config/sway/scripts/volume.sh --mic-inc",
+    "on-scroll-down": "~/.config/sway/scripts/volume.sh --mic-dec"
+},
+
+"power-profiles-daemon": {
+    "markup": "pango",
+    "format": "{icon}",
+    "tooltip-format": "Power Profile: {profile}\nDriver: {driver}",
+    "tooltip": true,
+    "format-icons": {
+      "default": "",
+      "performance": "<span font_desc='15'></span>",
+      "balanced": "",
+      "power-saver": "<span font_desc='16'></span>"
+    }
+  },
+  
+  "network": {
+    "format-wifi": "{icon}   {essid}",
+    "format-disconnected": "Disconnected ⚠ ",
+    "format-icons": [
+      "󰤯 ",
+      "󰤟 ",
+      "󰤢 ",
+      "󰤥 ",
+      "󰤨 "
+    ],
+    "tooltip-format-disconnected": "Disconnected",
+    "tooltip-format-wifi": "{icon} {essid}\n⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
+    "on-click": "~/.config/rofi/rofi-wifi-menu.sh &",
+    "format-ethernet": "{ifname}",
+    "tooltip-format-ethernet": "󰀂  {ifname}\n⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
+    "nospacing": 1,
+    "interval": 5
+  },
+  
+  "bluetooth": {
+    "markup": "pango",
+    "format": "<span font_desc='18'>󰂱</span>",
+    "format-disabled": "<span font_desc='18'>󰂲</span>",
+    "format-connected": "󰂱 {num_connections}",
+    "tooltip-format": "󰂱  {device_alias}",
+    "tooltip-format-connected": "{device_enumerate}",
+    "tooltip-format-enumerate-connected": "  {device_alias}  󰂄  {device_battery_percentage}%",
+    "tooltip": true,
+    "on-click": ".config/sway/scripts/bluetooth.sh",
+    "on-click-right": "blueman-manager"
+},
+  
+  "tray": {
+    "icon-size": 26,
+    "spacing": 4
+  },
+  
+  "custom/power-menu": {
+    "format": "⏻ ",
+    "tooltip": false,
+    "on-click": "~/.config/rofi/powermenu/type-6/powermenu.sh &"
+  },
+  
+  "custom/dunst": {
+    "markup": "pango",
+    "format": "<span font_desc='16'></span>  {}",
+    "exec": "dunstctl count displayed || echo 0",
+    "interval": 5,
+    "tooltip": true,
+    "tooltip-format": "Left Click: Close All Notifications\nRight Click: History",
+    "on-click": "dunstctl close-all",
+    "on-click-right": "dunstctl history-pop"
+},
+  
+  "custom/wallpaper-cycle": {
+    "format": " ",
+    "on-click": "~/.config/WallpaperSelector/WallpaperSelector.sh",
+    "on-click-right": "~/.config/WallpaperSelector/randomWallpaper.sh",
+    "tooltip": true,
+    "tooltip-format": "Left Click: Random wallpaper\nRight Click: Wallpaper Menu"
+  },
+  
+  "custom/light-dark-mode": {
+    "format": "󰃟 ",
+    "tooltip": true,
+    "tooltip-format": "Dark/Light Mode",
+    "on-click": "sh -c 'if [ \"$(cat ~/.config/.current_theme)\" = \"dark\" ]; then ~/.config/sway/scripts/theme.sh -l; else ~/.config/sway/scripts/theme.sh -d; fi'"
+  },
+  
+  "custom/weather": {
+    "format": "{}",
+    "format-alt": "{alt}",
+    "format-alt-click": "click-left",
+    "interval": 3600,
+    "return-type": "json",
+    "exec": "~/.config/waybar/weather-waybar-module.sh",
+    "exec-if": "ping openweathermap.org -c1",
+    "signal": 8
+  },
+  
+  "custom/battery#1": {
+    "full-at": 100,
+    "design-capacity": false,
+    "states": {
+      "good": 95,
+      "warning": 30,
+      "critical": 15
+    },
+    "format": "{capacity}% {icon}",
+    "format-charging": "{capacity}% ",
+    "format-plugged": "{capacity}% 󱘖 ",
+    "format-alt-click": "click",
+    "format-full": "Full {icon}",
+    "format-alt": "{icon} {time}",
+    "format-icons": [
+      "󰂎",
+      "󰁺",
+      "󰁻",
+      "󰁼",
+      "󰁽",
+      "󰁾",
+      "󰁿",
+      "󰂀",
+      "󰂁",
+      "󰂂",
+      "󰁹"
+    ],
+    "format-time": "{H}h {M}min",
+    "tooltip": true,
+    "tooltip-format": "{timeTo} {power}w"
+  },
+  
+  "custom/battery#2": {
+    "format": "{icon}   {capacity}%",
+    "format-icons": {
+      "charging": [
+        "󰢜",
+        "󰂆",
+        "󰂇",
+        "󰂈",
+        "󰢝",
+        "󰂉",
+        "󰢞",
+        "󰂊",
+        "󰂋",
+        "󰂅"
+      ],
+      "default": [
+        "󰁺",
+        "󰁻",
+        "󰁼",
+        "󰁽",
+        "󰁾",
+        "󰁿",
+        "󰂀",
+        "󰂁",
+        "󰂂",
+        "󰁹"
+      ]
+    },
+    "interval": 5,
+    "states": {
+      "warning": 25,
+      "critical": 10
+    },
+    "format-alt-click": "click",
+    "format-time": "{H}h {M}min",
+    "tooltip": true,
+    "tooltip-format": "{timeTo} {power}w"
+  },
+  
+"custom/swaync": {
+  "markup": "pango",
+  "tooltip": true,
+  "tooltip-format": "Left Click: Launch Notification Center\nRight Click: Do not Disturb",
+  "format": "{}  {icon}",
+  "format-icons": {
+    "notification": "<span font_desc='16'></span> <span foreground='red'><sup>  </sup></span>",
+    "none": " <span font_desc='16'></span>",
+    "dnd-notification": "<span font_desc='16'></span> <span foreground='red'><sup>  </sup></span>",
+    "dnd-none": " <span font_desc='16'></span>",
+    "inhibited-notification": "<span font_desc='16'></span> <span foreground='red'><sup>  </sup></span>",
+    "inhibited-none": " <span font_desc='16'></span>",
+    "dnd-inhibited-notification": "<span font_desc='16'></span> <span foreground='red'><sup>  </sup></span>",
+    "dnd-inhibited-none": " <span font_desc='16'></span>"
+  },
+  "return-type": "json",
+  "exec-if": "which swaync-client",
+  "exec": "swaync-client -swb",
+  "on-click": "sleep 0.1 && swaync-client -t -sw",
+  "on-click-right": "swaync-client -d -sw"
+},
+  
+  "custom/separator#dot": {
+    "format": "",
+    "interval": "once",
+    "tooltip": false
+  },
+  
+  "custom/separator#dot-line": {
+    "format": "",
+    "interval": "once",
+    "tooltip": false
+  },
+  
+  "custom/separator#line": {
+    "format": "|",
+    "interval": "once",
+    "tooltip": false
+  },
+  
+  "custom/separator#blank": {
+    "format": "",
+    "interval": "once",
+    "tooltip": false
+  },
+  
+  "custom/separator#blank_2": {
+    "format": "  ",
+    "interval": "once",
+    "tooltip": false
+  },
+  
+  "custom/separator#blank_3": {
+    "format": "   ",
+    "interval": "once",
+    "tooltip": false
+  }
+}

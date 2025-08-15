@@ -1,0 +1,30 @@
+(defwidget control_center []
+  (box :orientation "vertical"
+    :class "control-center"
+    :spacing 10
+    :padding 15
+    
+    (box :orientation "horizontal" :spacing 10
+      (button :class "toggler" :onclick "sh scripts/network.sh"
+        (label :text "WiFi")
+      )
+      (button :class "toggler" :onclick "sh scripts/bluetooth.sh"
+        (label :text "Bluetooth")
+      )
+    )
+    (box :orientation "horizontal" :spacing 10
+      (button :class "toggler" :onclick "sh scripts/location.sh"
+        (label :text "Location")
+      )
+      (button :class "toggler" :onclick "sh scripts/cast.sh"
+        (label :text "Cast")
+      )
+    )
+    (button :class "toggler" :onclick "sh scripts/toggle_DND.sh"
+      (label :text "Focus")
+    )
+    (button :class "toggler" :onclick "sh scripts/toggle_hotspot.sh"
+      (label :text "Hotspot")
+    )
+  )
+)

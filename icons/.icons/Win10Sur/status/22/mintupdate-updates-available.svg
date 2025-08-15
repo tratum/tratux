@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="22"
+   height="22"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="mintupdate-updates-available.svg"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#c8c8c8"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="24.041631"
+     inkscape:cx="9.2547799"
+     inkscape:cy="9.8163059"
+     inkscape:window-width="1920"
+     inkscape:window-height="955"
+     inkscape:window-x="0"
+     inkscape:window-y="34"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <defs
+     id="defs1">
+    <style
+       id="current-color-scheme"
+       type="text/css">
+   .ColorScheme-Text { color:#ffffff; } .ColorScheme-Highlight { color:#4285f4; }
+  </style>
+  </defs>
+  <g
+     id="g2">
+    <path
+       class="ColorScheme-Text"
+       fill="currentColor"
+       d="m 10.5,7 h 1 v 1 h -1 z m 0,2 h 1 v 6 h -1 z"
+       id="path1-5"
+       style="color:#ffffff" />
+    <circle
+       class="ColorScheme-Highlight"
+       fill="currentColor"
+       cx="17"
+       cy="17"
+       r="2"
+       id="circle1-3"
+       style="color:#4285f4" />
+    <path
+       class="ColorScheme-Text"
+       fill="currentColor"
+       d="m 11,3 a 8,8 0 0 0 -8,8 8,8 0 0 0 8,8 8,8 0 0 0 3.293,-0.71094 3,3 0 0 1 -0.27539,-0.97266 7,7 0 0 1 -3.0176,0.68359 7,7 0 0 1 -7,-7 7,7 0 0 1 6.9062,-7 7,7 0 0 1 0.09375,0 7,7 0 0 1 7,7 7,7 0 0 1 -0.68359,3.0176 3,3 0 0 1 0.97461,0.27344 8,8 0 0 0 0.70898,-3.291 8,8 0 0 0 -8,-8 z"
+       id="path2"
+       style="color:#ffffff" />
+  </g>
+</svg>

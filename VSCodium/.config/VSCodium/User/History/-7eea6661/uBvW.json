@@ -1,0 +1,51 @@
+{
+    // Allow opening untrusted files without prompt
+    "security.workspace.trust.untrustedFiles": "open",
+  
+    // Icon and color themes
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.productIconTheme": "fluent-icons",
+    "workbench.colorTheme": "Default Dark+",
+    "window.titleBarStyle": "custom",
+  
+    // Auto‑save and word wrap
+    "files.autoSave": "afterDelay",
+    "editor.wordWrap": "on",
+  
+    // File associations
+    "files.associations": {
+      "config": "c"
+    },
+  
+    // Prettier as default formatter for JSON & CSS
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+  
+    // Unicode highlighting for non‑ASCII
+    "editor.unicodeHighlight.nonBasicASCII": true,
+  
+    // Trust dark/light auto‑detection
+    "window.autoDetectColorScheme": true,
+  
+    // Hide status bar if desired
+    "workbench.statusBar.visible": false,
+  
+    // —————— Zig Language Server Configuration ——————  
+    "zig.zls.enabled": "on",  
+    "zig.zls.path": "/home/tratum/Software/zig/zig-0.14/zls",
+  
+    "zig.zls.highlightGlobalVarDeclarations": true,
+  
+    "workbench.settings.applyToAllProfiles": [
+      "zig.zigPath",
+      "zig.zls.path",
+      "zig.zls.enabled"
+    ],
+    "zig.path": "/home/tratum/Software/zig/zig-0.14/zig",
+    "zig.version": "0.14.0"
+  }
+  

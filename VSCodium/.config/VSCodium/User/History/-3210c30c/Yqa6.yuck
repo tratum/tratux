@@ -1,0 +1,4 @@
+; VARS
+
+(defvar open_control_center false)
+(defvar ANIM_DURATION "500ms")

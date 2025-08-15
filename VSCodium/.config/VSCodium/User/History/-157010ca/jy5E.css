@@ -1,0 +1,46 @@
+:root {
+    --font: "Afacad Flux Bold 18";
+    --background: #11092D;
+    --background-alt: #281657;
+    --foreground: #FFFFFF;
+    --selected: #DF5296;
+    --active: #6E77FF;
+    --urgent: #8E3596;
+  }
+  
+  /* dmenu container */
+  dmenu {
+    background-color: var(--background);
+    color: var(--foreground);
+    font: var(--font);
+    border: 0;
+    padding: 10px;
+  }
+  
+  /* The list (each entry) */
+  listview {
+    background-color: var(--background);
+    color: var(--foreground);
+    border: none;
+  }
+  
+  /* Each element (menu item) */
+  element {
+    background-color: var(--background);
+    color: var(--foreground);
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  /* Selected element */
+  element.selected {
+    background-color: var(--selected);
+    color: var(--background);
+  }
+  
+  /* Prompt styling */
+  prompt {
+    background-color: var(--background);
+    color: var(--foreground);
+    padding: 5px;
+  }  

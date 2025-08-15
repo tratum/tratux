@@ -1,0 +1,12 @@
+(defwindows control_center
+    :monitor 0
+    :windowtype "overlay"
+    :geometry (
+        geometry
+            :anchor "top center"
+            :width "60%"
+            :height "60%"
+    )
+    :namespace "eww"
+    (control_center)
+)

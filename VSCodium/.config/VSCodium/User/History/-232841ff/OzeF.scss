@@ -1,0 +1,41 @@
+/* scss/control_center.scss */
+
+/* Base styles for the control center container */
+.control-center {
+    background-color: rgba(30, 30, 30, 0.85); /* semi-transparent dark background */
+    border-radius: 10px;
+    padding: 15px;
+    color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    /* Ensure the widget takes its defined size from Yuck */
+    width: 100%;
+  }
+  
+  /* Styling for buttons with the "toggler" class */
+  .toggler {
+    background-color: #444;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    /* Align text center within the button */
+    text-align: center;
+  }
+  
+  /* Change background on hover */
+  .toggler:hover {
+    background-color: #666;
+  }
+  
+  /* Style for the label within toggler buttons */
+  .toggler label {
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+  
+  /* Optional: add margin between rows if not already handled in Yuck layout */
+  .box.horizontal {
+    margin-bottom: 10px;
+  }
+  

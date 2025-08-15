@@ -1,0 +1,50 @@
+// -*- mode: jsonc -*-
+
+// ### TOP Minimalist ## //
+
+{
+"include": [
+  "$HOME/.config/waybar/Modules",
+  "$HOME/.config/waybar/ModulesWorkspaces",
+  ],
+"layer": "top", 
+"position": "top", 
+//"mode": "dock",
+"exclusive": true,
+"passthrough": false,
+"gtk-layer-shell": true,
+"margin-left": 8,
+"margin-right": 8,
+"margin-top": 4,
+
+"modules-left": [	
+	//#"idle_inhibitor",
+        //"custom/light_dark_mode",
+	"group/mobo_drawer",
+	"hyprland/workspaces#rwmodified",
+	"tray#2",
+	"mpris",
+  "custom/cycle_wall#2", 
+	],
+    
+"modules-center": [
+	"clock#1",
+  "custom/separator#blank_2",
+  "custom/separator#line",
+  "custom/separator#blank_2",
+	"custom/swaync",
+	],
+    
+"modules-right": [
+	//#"hyprland/window",
+ 	//#"group/audio", 
+  "pulseaudio#microphone",
+  "custom/separator#dot-line",	
+  "battery",
+  "custom/separator#dot-line",
+  "pulseaudio#2",
+  "custom/separator#dot-line",
+	"custom/power",
+	],
+}
+

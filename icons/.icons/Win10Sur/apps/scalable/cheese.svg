@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" version="1.1" viewBox="0 0 16.933 16.933" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient1448" x1="3.9687" x2="3.9687" y1="16.323" y2="2.5603" gradientTransform="matrix(.91668 0 0 .91668 .50683 .50683)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#f50f2d" offset="0"/>
+   <stop stop-color="#ff4b00" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient919" x1="12.171" x2="12.171" y1="16.139" y2="8.2019" gradientTransform="matrix(1 0 0 1 -.1986 -.1986)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#1d1812" offset="0"/>
+   <stop stop-color="#393837" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient923" x1="12.171" x2="12.171" y1="16.139" y2="8.2019" gradientTransform="matrix(.93335 0 0 .93335 .61278 .61278)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#434343" offset="0"/>
+   <stop stop-color="#090909" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient933" x1="12.171" x2="12.171" y1="16.139" y2="8.2019" gradientTransform="matrix(.53334 0 0 .53334 5.4811 5.4811)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#5d5d5d" offset="0"/>
+   <stop stop-color="#2b2b2b" offset=".49758"/>
+   <stop stop-color="#5d5d5d" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient947" x1="16.139" x2="8.2019" y1="11.178" y2="11.178" gradientTransform="matrix(.33334 0 0 .33334 7.9153 7.9153)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#342993" offset="0"/>
+   <stop stop-color="#3b3942" offset=".49758"/>
+   <stop stop-color="#2c5940" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient973" x1="12.171" x2="12.171" y1="18.227" y2="15.113" gradientTransform="matrix(.28745 0 0 .28745 8.4739 8.55)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#fff" stop-opacity=".82" offset="0"/>
+   <stop stop-color="#fff" stop-opacity=".19" offset=".30196"/>
+   <stop stop-color="#fff" stop-opacity="0" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient996" x1="10.583" x2="8.7311" y1="7.6728" y2="14.816" gradientTransform="matrix(1 0 0 1 -.1986 -.1986)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#fff" offset="0"/>
+   <stop stop-color="#fff" stop-opacity="0" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient959" x1="12.171" x2="12.171" y1="5.3665" y2="12.136" gradientTransform="matrix(.28425 0 0 .28425 8.5128 8.405)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#fff" stop-opacity=".82" offset="0"/>
+   <stop stop-color="#fff" stop-opacity=".19" offset=".6"/>
+   <stop stop-color="#fff" stop-opacity="0" offset="1"/>
+  </linearGradient>
+ </defs>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(.1986 .1986)">
+  <rect x=".99192" y=".99192" width="14.552" height="14.552" ry="3.4396" fill="url(#linearGradient1448)" stroke-opacity=".95294" stroke-width=".083154"/>
+  <path d="m5.6223 4.0348v7.9376h7.673v-7.9376zm3.8365 1.8521a1.3229 1.4552 0 0 1 1.3229 1.4552 1.3229 1.4552 0 0 1-1.3229 1.4552 1.3229 1.4552 0 0 1-1.3229-1.4552 1.3229 1.4552 0 0 1 1.3229-1.4552zm0 3.5719a2.6459 1.9844 0 0 1 2.6459 1.9844h-5.2917a2.6459 1.9844 0 0 1 2.6459-1.9844z" fill="#fff" stroke-width=".26458"/>
+  <path d="m9.8588 3.4416-1.2268 0.32867h1.3147l-0.087851-0.32867zm-4.5011 1.2061-2.9104 0.77981 2.0542 7.6674 3.202-0.85784h-2.0443l-0.78291 0.20981-1.7808-6.6451 2.2624-0.60616v-0.54777z" fill="#fff" stroke-width=".26458"/>
+ </g>
+ <g transform="translate(.49148 .51478)">
+  <circle cx="11.973" cy="11.973" r="3.9688" fill="url(#linearGradient919)"/>
+  <circle cx="11.973" cy="11.973" r="3.7042" fill="url(#linearGradient923)"/>
+  <circle cx="11.973" cy="11.973" r="2.1166" fill="url(#linearGradient933)"/>
+  <circle cx="11.973" cy="11.973" r="1.3229" fill="url(#linearGradient947)"/>
+  <circle cx="11.973" cy="12.049" r="1.1408" fill="url(#linearGradient973)"/>
+  <path d="m9.1659 9.1426a3.9688 3.9688 0 0 0 0 5.6126l5.6127-5.6126a3.9688 3.9688 0 0 0-5.6127 0z" fill="url(#linearGradient996)" opacity=".25"/>
+  <circle cx="11.973" cy="11.865" r="1.1281" fill="url(#linearGradient959)"/>
+ </g>
+</svg>

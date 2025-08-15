@@ -1,0 +1,12 @@
+(defwindow control_center_window
+    :monitor 0
+    :stacking "fg"
+    :geometry (
+        geometry
+            :anchor "top center"
+            :width "60%"
+            :height "60%"
+    )
+    :namespace "eww"
+    (control_center)
+)

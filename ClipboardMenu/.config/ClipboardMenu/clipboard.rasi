@@ -1,0 +1,71 @@
+* {
+    background: #121212;
+    text-color: #E0E0E0;
+    separator-color: #801818;
+}
+
+window {
+    width: 800px;
+    location: center;
+    border: 0;
+    padding: 20px;
+    border-radius: 16px;
+}
+
+mainbox {
+    children: [ "inputbar", "message", "listview" ];
+}
+
+inputbar {
+    font: "Afacad Flux Bold 18";
+    text-color: #E0E0E0;
+    background-color: #121212;
+    border: 0;
+    padding: 6px 8px;
+}
+
+entry {
+    placeholder: "📋 Search Clipboard";
+    text-color: #E0E0E0;
+    background-color: #121212;
+    border: 0;
+    padding: 10px;
+}
+
+message {
+    text-color: #E0E0E0;
+    background-color: transparent;
+    border: 0;
+    padding: 4px;
+}
+
+listview {
+    lines: 10;
+    columns: 1;
+    spacing: 12px;
+    fixed-height: true;
+    border: 0;
+}
+
+element {
+    orientation: horizontal;
+    padding: 8px;
+    background-color: #121212;
+    border: 0;
+}
+
+element-text {
+    font: "Afacad Flux Bold 16";
+    text-color: #E0E0E0;
+    background-color: #121212;
+    padding: 6px 12px;
+}
+
+element selected {
+    background-color: #121212;
+}
+
+element-text selected {
+    background-color: transparent;
+    text-color: #FFFFFF;
+}

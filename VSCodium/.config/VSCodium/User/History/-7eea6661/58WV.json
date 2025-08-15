@@ -1,0 +1,17 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.iconTheme": "material-icon-theme",
+    "files.autoSave": "afterDelay",
+    "files.associations": {
+        "config": "c"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.unicodeHighlight.nonBasicASCII": true,
+    "workbench.colorTheme": "Visual Studio Dark",
+    "window.titleBarStyle": "custom"
+}

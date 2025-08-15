@@ -1,0 +1,150 @@
+/* Global Styles */
+* {
+  font-family: "Afacad Flux";
+  font-size: 96%;
+  font-weight: 500;
+}
+
+/* Waybar Container */
+window#waybar {
+  background-color: transparent;
+  border-radius: 2px;
+  color: whitesmoke;  
+}
+
+window#waybar.hidden {
+  opacity: 0.4;
+}
+
+/* Workspaces Module (sway/workspaces#1) */
+#workspaces {
+  background-color: black;
+  border-radius: 50px;
+  padding: 8px 12px;
+  margin: 4px 10px;
+}
+
+/* Workspace Buttons */
+#workspaces button {
+  color: whitesmoke;
+  background-color: transparent;
+  padding: 6px 4px 6px 4px;
+  margin: 0 4px 0 4px;
+  border-radius: 50px;
+  box-shadow: none;
+  text-shadow: none;
+  transition: all 0.5s;
+}
+
+/* Active Workspace Button with Pulse Glow */
+#workspaces button.active {
+  color: #268bd2;
+  font-weight: bolder;
+  background: transparent;
+  animation: pulse 1.5s infinite;
+}
+
+/* Pulse Animation for Active Workspace */
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 5px rgba(38, 139, 210, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 15px rgba(38, 139, 210, 1);
+  }
+  100% {
+    box-shadow: 0 0 5px rgba(38, 139, 210, 0.5);
+  }
+}
+
+#clock {
+  background-color: black;
+  border-radius: 50px;
+  padding: 6px 16px 6px 10px;
+  margin: 4px 10px;
+  color: whitesmoke;
+  font-family: "Afacad Flux";
+  font-weight: bolder;
+}
+
+#custom-wallpaper-cycle {
+  background-color: black;
+  border-radius: 50px 0 0 50px;
+  padding: 6px 12px 6px 18px; 
+  margin: 4px 0 4px 0;
+  color: whitesmoke;
+  font-family: "Afacad Flux";
+}
+
+#custom-light-dark-mode {
+  background-color: black;
+  border-radius: 0 50px 50px 0;
+  padding: 6px 18px 6px 0;
+  margin: 4px 0 4px 0; 
+  color: whitesmoke;
+  font-family: "Afacad Flux";
+}
+
+#pulseaudio {
+  color: #a55377;
+  font-size: ;
+  background-color: #040404;
+  padding: 0 8px 0 26px;
+  border-radius: 50px 0 0 50px;
+  margin: 4px 0 4px 10px;
+}
+#pulseaudio.microphone {
+  background-color: #040404;
+  color: #a55377;
+  padding: 0 26px 0 8px;
+  border-radius: 0 50px 50px 0;
+  margin: 4px 10px 4px 0px;
+}
+
+#network {
+  background-color: #040404;
+  color: #268bd2;
+  padding: 0 12px;
+  border-radius: 8px;
+  margin: 4px 10px;
+}
+
+#network.disconnected {
+  color: #fb958b;
+}
+
+#battery {
+  font-family: "Afacad Flux";
+  background-color: black;
+  border-radius: 50px 0 0 50px;
+  padding: 0 10px 0 26px; 
+  margin: 4px 0 4px 10px;
+}
+
+#battery.critical,
+#battery.warning,
+#battery.full {
+  color: #268bd2;
+}
+#battery.plugged {
+  color: #91ffc3;
+}
+#battery.charging {
+  color: #87bb82;
+}
+
+#power-profiles-daemon{
+  background-color: black;
+  border-radius: 0;
+  padding: 0 12px 0 12px; 
+  margin: 4px 0 4px 0;
+}
+
+#custom-power-menu {
+  color: #e78284;
+  font-family: "Afacad Flux";
+  background-color: black;
+  border-radius: 0 50px 50px 0;
+  padding: 6px 26px 0 24px;
+  margin: 4px 10px 4px 0px;
+}

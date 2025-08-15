@@ -1,0 +1,28 @@
+/* Overall window styling */
+window {
+    background-color: #000000;  /* Black background */
+    border: 1px solid #333333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Styling for the list of entries */
+listview {
+    color: #ffffff;             /* White text */
+    font-family: "monospace";
+    font-size: 13px;
+    padding: 5px;
+}
+
+/* Styling for the selected entry */
+listview selected {
+    background-color: #ff0000;  /* Red background */
+    color: #ffffff;             /* Keep text white */
+}
+
+/* Prompt styling */
+prompt {
+    color: #ffffff;
+    font-family: "monospace";
+    font-size: 14px;
+}
+

@@ -1,0 +1,53 @@
+2025-06-02 16:49:51.749 [info] Extension host with pid 2717 started
+2025-06-02 16:49:51.749 [info] Skipping acquiring lock for /home/tratum/.config/VSCodium/User/workspaceStorage/df3e1064ab2e80f0f94aa84bb8108411.
+2025-06-02 16:49:51.775 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-06-02 16:49:51.800 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-02 16:49:51.810 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-02 16:49:51.880 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-02 16:49:51.942 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-06-02 16:49:51.972 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-06-02 16:49:52.035 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-06-02 16:49:52.145 [info] Eager extensions activated
+2025-06-02 16:49:52.193 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-06-02 16:49:52.196 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-06-02 17:03:30.371 [info] ExtensionService#_doActivateExtension ziglang.vscode-zig, startup: false, activationEvent: 'onLanguage:zig'
+2025-06-02 17:03:30.767 [warning] DiagnosticCollection with name 'zig' does already exist.
+2025-06-02 17:04:25.364 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-06-02 17:06:13.694 [info] ExtensionService#_doActivateExtension psudo-dev.nebula-oni-theme, startup: false, activationEvent: 'onStartupFinished'
+2025-06-02 17:06:36.490 [info] Extension host terminating: renderer closed the MessagePort
+2025-06-02 17:06:36.522 [info] Extension host with pid 2717 exiting with code 0
+2025-06-02 17:06:37.245 [info] Extension host with pid 4559 started
+2025-06-02 17:06:37.246 [info] Skipping acquiring lock for /home/tratum/.config/VSCodium/User/workspaceStorage/df3e1064ab2e80f0f94aa84bb8108411.
+2025-06-02 17:06:37.258 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-02 17:06:37.270 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-02 17:06:37.329 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-02 17:06:37.388 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-06-02 17:06:37.408 [info] ExtensionService#_doActivateExtension ziglang.vscode-zig, startup: false, activationEvent: 'onLanguage:zig'
+2025-06-02 17:06:37.608 [warning] DiagnosticCollection with name 'zig' does already exist.
+2025-06-02 17:06:37.806 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-06-02 17:06:37.813 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-06-02 17:06:37.861 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-06-02 17:06:37.959 [info] Eager extensions activated
+2025-06-02 17:06:37.968 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-06-02 17:06:37.971 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-06-02 17:06:37.990 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-06-02 17:06:41.985 [info] ExtensionService#_doActivateExtension psudo-dev.nebula-oni-theme, startup: false, activationEvent: 'onStartupFinished'
+2025-06-02 17:09:45.917 [info] Extension host terminating: renderer closed the MessagePort
+2025-06-02 17:09:45.931 [info] Extension host with pid 4559 exiting with code 0
+2025-06-02 17:09:47.504 [info] Extension host with pid 4885 started
+2025-06-02 17:09:47.504 [info] Skipping acquiring lock for /home/tratum/.config/VSCodium/User/workspaceStorage/df3e1064ab2e80f0f94aa84bb8108411.
+2025-06-02 17:09:47.540 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-06-02 17:09:47.590 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-06-02 17:09:47.594 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-06-02 17:09:47.648 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-06-02 17:09:47.726 [info] Eager extensions activated
+2025-06-02 17:09:47.754 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-06-02 17:09:47.756 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-06-02 17:09:47.775 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-06-02 17:09:47.852 [info] ExtensionService#_doActivateExtension psudo-dev.nebula-oni-theme, startup: false, activationEvent: 'onStartupFinished'
+2025-06-02 17:09:48.750 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-02 17:09:48.761 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-02 17:09:48.847 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-02 17:11:00.107 [info] ExtensionService#_doActivateExtension ziglang.vscode-zig, startup: false, activationEvent: 'onLanguage:zig'
+2025-06-02 17:11:00.309 [warning] DiagnosticCollection with name 'zig' does already exist.
+2025-06-02 17:13:16.941 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'

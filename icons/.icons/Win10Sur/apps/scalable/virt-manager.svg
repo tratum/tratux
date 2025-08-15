@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient1115" x1="-29.448" x2="-29.448" y1="4.6371" y2="59.494" gradientTransform="translate(124.11 12.808)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#fff" offset="0"/>
+   <stop stop-color="#ccd4da" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient2992" x1="32.482" x2="32.482" y1="6.9759" y2="56.885" gradientTransform="translate(60.417 12.808)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#fcfcfe" offset="0"/>
+   <stop stop-color="#e0e4e9" offset="1"/>
+  </linearGradient>
+  <filter id="filter929" x="-.076235" y="-.18514" width="1.1525" height="1.3703" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="1.62"/>
+  </filter>
+  <linearGradient id="linearGradient1962" x1="428.37" x2="428.37" y1="530.8" y2="525.8" gradientTransform="matrix(3.8244 0 0 3.7479 -1559.7 -1935.5)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#da4453" offset="0"/>
+   <stop stop-color="#fa4e5f" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient1964" x1="29" x2="29" y1="17" y2="31" gradientTransform="matrix(1.3385 0 0 1.3385 59.845 12.302)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#31363b" offset="0"/>
+   <stop stop-color="#4d4d4d" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient1966" x1="26" x2="26" y1="17" y2="31" gradientTransform="matrix(1.3385 0 0 1.3385 59.845 12.302)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#7f8c8d" offset="0"/>
+   <stop stop-color="#afb0b3" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient1968" x1="32" x2="32" y1="31" y2="17" gradientTransform="matrix(1.3385 0 0 1.3385 59.845 12.302)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#afb0b3" offset="0"/>
+   <stop stop-color="#bdc3c7" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient1970" x1="34" x2="34" y1="31" y2="17" gradientTransform="matrix(1.3385 0 0 1.3385 59.845 12.302)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#4d4d4d" offset="0"/>
+   <stop stop-color="#585858" offset="1"/>
+  </linearGradient>
+ </defs>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>深度用户反馈-128px</dc:title>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <title>深度用户反馈-128px</title>
+ <g transform="translate(-60.417 -12.808)">
+  <rect x="64.917" y="17.308" width="55" height="55" ry="13" fill="url(#linearGradient1115)" image-rendering="optimizeSpeed" stroke-width=".47291"/>
+  <path d="m78.532 19.808c-6.1582 0-11.115 4.957-11.115 11.115v27.77c0 6.1582 4.957 11.115 11.115 11.115h27.77c6.1582 0 11.115-4.957 11.115-11.115v-27.77c0-6.1582-4.957-11.115-11.115-11.115z" fill="url(#linearGradient2992)" style="paint-order:stroke fill markers"/>
+  <path transform="matrix(.89236 0 0 .89236 63.861 16.318)" d="m6.5 22.103 7.5 21h13.5l3-8.4004 3 8.4004h9l3-8.4004 3 8.4004h9l-7.5-21h-9l-3 8.4004-3-8.4004h-13.5l-5.25 15-5.25-15z" filter="url(#filter929)" opacity=".25" stroke-width="1.5"/>
+  <g stroke-width="1.3385">
+   <path d="m69.215 35.057h4.0156l4.6849 13.385 4.6849-13.385h4.0156l-6.6927 18.74-4.0156-8.8e-5z" fill="url(#linearGradient1962)"/>
+   <path d="m83.939 53.797 6.6927-18.74h4.0156l-6.6927 18.74zm13.385 0 6.6927-18.74h4.0156l-6.6927 18.74z" fill="url(#linearGradient1964)"/>
+   <path d="m79.923 53.797 6.6927-18.74h4.0156l-6.6927 18.74zm13.385 0 6.6927-18.74h4.0156l-6.6927 18.74z" fill="url(#linearGradient1966)"/>
+   <path d="m97.324 53.797h-4.0156l-6.6927-18.74h4.0156zm13.385 0h-4.0156l-6.6927-18.74h4.0156z" fill="url(#linearGradient1968)"/>
+   <path d="m90.632 35.057 6.6927 18.74h4.0156l-6.6927-18.74zm13.385 0 6.6927 18.74h4.0156l-6.6927-18.74z" fill="url(#linearGradient1970)"/>
+  </g>
+ </g>
+</svg>

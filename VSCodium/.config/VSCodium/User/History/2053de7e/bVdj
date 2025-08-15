@@ -1,0 +1,31 @@
+// -*- mode: jsonc -*-
+{
+    "include": [
+      "$HOME/.config/waybar/modules",
+     ],
+    "layer": "top",
+    "position": "top",
+    "exclusive": "true",
+    "passthrough": false,
+    "gtk-layer-shell": true,
+    "margin-top": 5,
+    "margin-left": 10,
+    "margin-right": 10,
+    "spacing": 0,
+    
+    "modules-left": [
+        "sway/workspaces#1",
+//      "sway/mode",
+//      "custom/weather",
+        "custom/wallpaper-cycle",
+],
+    "modules-center": [
+        "clock"
+    ],
+    "modules-right": [
+        "pulseaudio",
+        "network",
+        "battery",
+        "custom/power-menu",
+    ],
+}

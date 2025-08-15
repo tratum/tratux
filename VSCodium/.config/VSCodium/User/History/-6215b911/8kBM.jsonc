@@ -1,0 +1,51 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "display": {
+        "color": "magenta"
+    },
+  "logo": {
+    "type": "file",
+    "source": "~/.config/fastfetch/akuma.png",
+    "width": 60,
+    "height": 40
+  },
+  "modules": [
+    "title",
+    "separator",
+    "os",
+    //"host",
+    "kernel",
+    //"uptime",
+    //"packages",
+    "shell",
+    "terminal",
+    //"display",
+    "de",
+    "wm",
+    //"wmtheme",
+    "theme",
+    "icons",
+    //"font",
+    //"cursor",
+    //"terminalfont",
+    "cpu",
+    "gpu",
+    {
+      "type": "memory",
+      "key": "Memory",
+      "percent": {
+          "type": 3,     // Show both percentage number and bar
+          "green": 30,   // Values below 30% in green
+          "yellow": 70   // 30-70% in yellow, >70% in red
+      }
+    },
+    //"swap",
+    //"disk",
+    //"localip",
+    //"battery",
+    //"poweradapter",
+    //"locale",
+    "break",
+    "colors"
+  ]
+}

@@ -1,0 +1,9 @@
+(defwindows control_center
+    :monitor 0
+    :stacking "overlay"
+    :geometry (geometry
+                :anchor "top center"
+                :width ""
+    )
+
+)

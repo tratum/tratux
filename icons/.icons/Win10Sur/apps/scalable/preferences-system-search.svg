@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient1281" x1="5.122" x2="59.04" y1="4.761" y2="58.885" gradientTransform="translate(53.475 29.823)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#f2f8fe" offset="0"/>
+   <stop stop-color="#d2e0f1" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient1235" x1="4.3106" x2="14.36" y1="8.4665" y2="8.4665" gradientTransform="matrix(3.2026 0 0 3.2026 68.997 -43.844)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#3c8cff" offset="0"/>
+   <stop stop-color="#55b4ff" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g transform="translate(-53.475 -29.823)">
+  <path d="m70.975 34.323c-7.202 0-13 5.798-13 13v29c0 7.202 5.798 13 13 13h29c7.202 0 13-5.798 13-13v-29c0-7.202-5.798-13-13-13z" fill="url(#linearGradient1281)" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" style="paint-order:stroke fill markers"/>
+  <rect transform="rotate(45)" x="110.94" y="-18.902" width="20.588" height="4.3511" ry="2.1755" fill="#1955b9" stroke-width="3.2026"/>
+  <circle transform="rotate(45)" cx="98.893" cy="-16.728" r="13.974" fill="none" stroke="url(#linearGradient1235)" stroke-linecap="round" stroke-width="4.6428"/>
+ </g>
+</svg>

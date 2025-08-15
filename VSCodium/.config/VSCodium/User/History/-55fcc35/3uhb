@@ -1,0 +1,293 @@
+{
+
+  "sway/workspaces": {
+    "show-special": false,
+    "on-click": "activate",
+    "disable-scroll": true,
+    "all-outputs": true,
+    "sort-by-number": true,
+    "format": "{icon}",
+    "format-icons": {
+      "focused": "",
+      "default": ""
+    }
+  },
+
+  "sway/workspaces#1": {
+    "show-special": false,
+    "on-click": "activate",
+    "disable-scroll": true,
+    "all-outputs": true,
+    "sort-by-number": true,
+    "format": "{icon} {windows}",
+    "format-window-separator": " ",
+    "window-rewrite-default": "",
+    "window-rewrite": {
+      "title<.*youtube.*>": " ",
+      "title<.*amazon.*>": " ",
+      "title<.*reddit.*>": " ",
+      "title<.*Picture-in-Picture.*>": " ",
+      "class<firefox>": " ",
+      "class<kitty>": " ",
+      "class<konsole>": " ",
+      "class<thunar>": "󰝰 ",
+      "class<discord>": " ",
+      "class<WebCord>": " ",
+      "class<sublime>": "󰅳 ",
+      "class<celluloid>": " ",
+      "class<Cider>": "󰎆 ",
+      "class<code-oss>": "󰨞 ",
+      "class<codium|codium-url-handler|VSCodium>": "󰨞 ",
+      "class<codeblocks>": "󰅩 ",
+      "class<mousepad>": " ",
+      "class<libreoffice-writer>": " ",
+      "class<libreoffice-startcenter>": "󰏆 ",
+      "class<brave>": " ",
+      "class<chromium>": " ",
+      "class<android-studio>": " "
+    }
+  },
+  
+  "sway/workspaces#2": {
+    "show-special": false,
+    "on-click": "activate",
+    "disable-scroll": true,
+    "all-outputs": true,
+    "sort-by-number": true,
+    "format": " {name} {icon} ",
+    "format-icons": {
+      "1": " ",
+      "2": " ",
+      "3": " ",
+      "4": " ",
+      "5": " ",
+      "6": " ",
+      "7": "",
+      "8": " ",
+      "9": "",
+      "10": "10",
+      "focused": "",
+      "default": ""
+    }
+  },
+  
+  "clock": {
+    "format": "      {:%I:%M %p} ",
+    "format-alt": "     {:%a, %d %b %Y} ",
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+  },
+  
+  "battery": {
+    "format": "{icon}   {capacity}%",
+    "format-icons": {
+      "charging": [
+        "󰢜",
+        "󰂆",
+        "󰂇",
+        "󰂈",
+        "󰢝",
+        "󰂉",
+        "󰢞",
+        "󰂊",
+        "󰂋",
+        "󰂅"
+      ],
+      "default": [
+        "󰁺",
+        "󰁻",
+        "󰁼",
+        "󰁽",
+        "󰁾",
+        "󰁿",
+        "󰂀",
+        "󰂁",
+        "󰂂",
+        "󰁹"
+      ]
+    },
+    "interval": 5,
+    "states": {
+      "warning": 25,
+      "critical": 10
+    },
+    "format-alt-click": "click",
+    "format-time": "{H}h {M}min",
+    "tooltip": true,
+    "tooltip-format": "{timeTo} {power}w"
+  },
+  
+  "pulseaudio": {
+    "markup": "pango",
+    "format": "{icon}  {volume}%",
+    "nospacing": 1,
+    "tooltip-format": "Volume : {volume}%",
+    "format-muted": "<span font_desc='22'>󰝟</span>",
+    "format-icons": {
+      "headphone": " ",
+      "hands-free": "",
+      "default": [
+        "󰕿 ",
+        "󰖀 ",
+        "󰕾 "
+      ]
+    },
+    "scroll-step": 1,
+    "on-click-right": "pavucontrol",
+    "on-click": "~/.config/sway/scripts/volume.sh --toggle",
+    "on-scroll-up": "~/.config/sway/scripts/volume.sh --inc",
+    "on-scroll-down": "~/.config/sway/scripts/volume.sh --dec",
+    "smooth-scrolling-threshold": 1
+  },
+  
+"pulseaudio#microphone": {
+    "markup": "pango",
+    "format": "{format_source} ",
+    "format-source": "   {volume}%",
+    "format-source-muted": "<span font_desc='15'></span>",
+    "on-click-right": "pavucontrol -t 4",
+    "on-click": "~/.config/sway/scripts/volume.sh --toggle-mic",
+    "tooltip-format": "{source_desc} | {source_volume}%",
+    "scroll-step": 1,
+    "on-scroll-up": "~/.config/sway/scripts/volume.sh --mic-inc",
+    "on-scroll-down": "~/.config/sway/scripts/volume.sh --mic-dec"
+},
+
+"power-profiles-daemon": {
+    "format": "{icon}",
+    "tooltip-format": "Power profile: {profile}\nDriver: {driver}",
+    "tooltip": true,
+    "format-icons": {
+      "default": "",
+      "performance": "",
+      "balanced": "",
+      "power-saver": ""
+    }
+  },
+  
+  "network": {
+    "format-wifi": "{icon}   {essid}",
+    "format-disconnected": "Disconnected ⚠ ",
+    "format-icons": [
+      "󰤯 ",
+      "󰤟 ",
+      "󰤢 ",
+      "󰤥 ",
+      "󰤨 "
+    ],
+    "tooltip-format-disconnected": "Disconnected",
+    "tooltip-format-wifi": "{icon} {essid}\n⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
+    "on-click": "~/.config/rofi/rofi-wifi-menu.sh &",
+    "format-ethernet": "{ifname}",
+    "tooltip-format-ethernet": "󰀂  {ifname}\n⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
+    "nospacing": 1,
+    "interval": 5
+  },
+  
+  "bluetooth": {
+    "markup": "pango",
+    "format": "<span font_desc='15'></span>",
+    "format-disabled": "<span font_desc='15'></span>",
+    "format-connected": "󰂱 {num_connections}",
+    "tooltip-format": "  {device_alias}",
+    "tooltip-format-connected": "{device_enumerate}",
+    "tooltip-format-enumerate-connected": "  {device_alias}  󰂄  {device_battery_percentage}%",
+    "tooltip": true,
+    "on-click": "blueman-manager"
+},
+  
+  "tray": {
+    "icon-size": 26,
+    "spacing": 4
+  },
+  "custom/power-menu": {
+    "format": "⏻ ",
+    "tooltip": false,
+    "on-click": "~/.config/rofi/powermenu/type-6/powermenu.sh &"
+  },
+  "custom/weather": {
+    "format": "{}",
+    "format-alt": "{alt}",
+    "format-alt-click": "click-left",
+    "interval": 3600,
+    "return-type": "json",
+    "exec": "~/.config/waybar/weather-waybar-module.sh",
+    "exec-if": "ping openweathermap.org -c1",
+    "signal": 8
+  },
+  "custom/battery#1": {
+    "full-at": 100,
+    "design-capacity": false,
+    "states": {
+      "good": 95,
+      "warning": 30,
+      "critical": 15
+    },
+    "format": "{capacity}% {icon}",
+    "format-charging": "{capacity}% ",
+    "format-plugged": "{capacity}% 󱘖 ",
+    "format-alt-click": "click",
+    "format-full": "Full {icon}",
+    "format-alt": "{icon} {time}",
+    "format-icons": [
+      "󰂎",
+      "󰁺",
+      "󰁻",
+      "󰁼",
+      "󰁽",
+      "󰁾",
+      "󰁿",
+      "󰂀",
+      "󰂁",
+      "󰂂",
+      "󰁹"
+    ],
+    "format-time": "{H}h {M}min",
+    "tooltip": true,
+    "tooltip-format": "{timeTo} {power}w"
+  },
+  "custom/wallpaper-cycle": {
+    "format": " ",
+    "on-click": "~/.config/hypr/UserScripts/WallpaperRandom.sh",
+    "on-click-right": "~/.config/hypr/UserScripts/WallpaperSelect.sh",
+    "tooltip": true,
+    "tooltip-format": "Left Click: Random wallpaper\nRight Click: Wallpaper Menu"
+  },
+  "custom/light-dark-mode": {
+    "format": "󰃟 ",
+    "on-click": "~/.config/hypr/scripts/DarkLight.sh",
+    "on-click-right": "~/.config/hypr/scripts/WaybarStyles.sh",
+    "on-click-middle": "~/.config/hypr/UserScripts/WallpaperSelect.sh",
+    "tooltip": true,
+    "tooltip-format": "Left Click: Switch Dark-Light Themes\nMiddle Click: Wallpaper Menu\nRight Click: Waybar Styles Menu"
+  },
+  "custom/separator#dot": {
+    "format": "",
+    "interval": "once",
+    "tooltip": false
+  },
+  "custom/separator#dot-line": {
+    "format": "",
+    "interval": "once",
+    "tooltip": false
+  },
+  "custom/separator#line": {
+    "format": "|",
+    "interval": "once",
+    "tooltip": false
+  },
+  "custom/separator#blank": {
+    "format": "",
+    "interval": "once",
+    "tooltip": false
+  },
+  "custom/separator#blank_2": {
+    "format": "  ",
+    "interval": "once",
+    "tooltip": false
+  },
+  "custom/separator#blank_3": {
+    "format": "   ",
+    "interval": "once",
+    "tooltip": false
+  }
+}

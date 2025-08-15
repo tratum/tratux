@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" version="1.1" viewBox="0 0 16.933 16.933" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient2116" x1="23.335" x2="40.287" y1="24.591" y2="41.543" gradientTransform="matrix(.26458 0 0 .26458 3.2298 3.6286)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#ffdc0a" offset="0"/>
+   <stop stop-color="#ffd20a" offset="1"/>
+  </linearGradient>
+ </defs>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(-.54613)">
+  <g transform="translate(-2.6836 -3.6286)">
+   <rect x="4.4204" y="4.8192" width="14.552" height="14.552" ry="3.4396" fill="url(#linearGradient2116)" stroke-width=".56197"/>
+   <rect x="5.7433" y="6.1421" width="11.906" height="11.906" ry="2.3938" fill="#f5f5f5" stroke-width=".4598"/>
+   <g fill="#4c4c4c">
+    <path d="m7.6334 10.781c-0.0053 0.04148-0.00859 0.08474-0.013674 0.12724h8.1534c-0.0048-0.0425-0.0083-0.0858-0.01421-0.12724z" opacity=".6" stroke-width=".68219" style="paint-order:normal"/>
+    <path d="m7.7672 8.2807c0.00472 0.042499 0.00922 0.084921 0.01447 0.12724h7.8306c0.0049-0.045722 0.0091-0.082113 0.01344-0.12724z" opacity=".6" stroke-width=".6697" style="paint-order:normal"/>
+    <path d="m7.6334 13.282c-0.0053 0.04148-0.00859 0.08474-0.013674 0.12724h8.1534c-0.0048-0.0425-0.0083-0.08579-0.01421-0.12724z" opacity=".6" stroke-width=".68219" style="paint-order:normal"/>
+    <path d="m7.6284 15.783c-0.00336 0.04148-0.00544 0.08474-0.00867 0.12724h5.1693c-0.0031-0.0425-0.0053-0.08579-9e-3 -0.12724z" opacity=".6" stroke-width=".5432" style="paint-order:normal"/>
+   </g>
+   <path d="m10.851 17.051-0.4395-0.28123-0.01765 0.29366c-0.0082 0.12418 0.12974 0.2041 0.23349 0.13538z" fill="#191919" stroke-width=".011746"/>
+   <path d="m10.556 14.329-0.14715 2.4421 0.4395 0.28123 2.0647-1.363z" fill="#cdcdcd" stroke-width=".011746"/>
+   <path d="m15.759 6.9764c-0.52625-0.065458-1.0654 0.18224-1.3473 0.67036l-3.8555 6.6788 2.3565 1.3603 3.8567-6.6782c0.3759-0.65094 0.15275-1.4831-0.49836-1.8587-0.16268-0.094011-0.33668-0.15084-0.5121-0.17266z" fill="#323232" stroke-width=".011745"/>
+  </g>
+ </g>
+</svg>

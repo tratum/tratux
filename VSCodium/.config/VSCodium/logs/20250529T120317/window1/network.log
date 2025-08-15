@@ -1,0 +1,14 @@
+2025-05-29 12:03:39.470 [error] #1: https://open-vsx.org/vscode/gallery/brunnerh/insert-unicode/latest - error GET Fetch timeout: 10000ms
+2025-05-29 12:03:39.471 [error] #2: https://open-vsx.org/vscode/gallery/codeshake/typograf-vscode/latest - error GET Fetch timeout: 10000ms
+2025-05-29 12:03:39.472 [error] #3: https://open-vsx.org/vscode/gallery/emroussel/atomize-atom-one-dark-theme/latest - error GET Fetch timeout: 10000ms
+2025-05-29 12:03:39.473 [error] #4: https://open-vsx.org/vscode/gallery/esbenp/prettier-vscode/latest - error GET Fetch timeout: 10000ms
+2025-05-29 12:03:39.474 [error] #5: https://open-vsx.org/vscode/gallery/eww-yuck/yuck/latest - error GET Fetch timeout: 10000ms
+2025-05-29 12:03:39.476 [error] #6: https://open-vsx.org/vscode/gallery/gencer/html-slim-scss-css-class-completion/latest - error GET Fetch timeout: 10000ms
+2025-05-29 12:03:39.477 [error] #7: https://open-vsx.org/vscode/gallery/idleberg/icon-fonts/latest - error GET Fetch timeout: 10000ms
+2025-05-29 12:03:39.478 [error] #8: https://open-vsx.org/vscode/gallery/jdinhlife/gruvbox/latest - error GET Fetch timeout: 10000ms
+2025-05-29 12:03:39.479 [error] #9: https://open-vsx.org/vscode/gallery/miguelsolorio/fluent-icons/latest - error GET Fetch timeout: 10000ms
+2025-05-29 12:03:39.480 [error] #10: https://open-vsx.org/vscode/gallery/pkief/material-icon-theme/latest - error GET Fetch timeout: 10000ms
+2025-05-29 12:03:39.481 [error] #11: https://open-vsx.org/vscode/gallery/timonwong/shellcheck/latest - error GET Fetch timeout: 10000ms
+2025-05-29 12:03:39.482 [error] #12: https://open-vsx.org/vscode/gallery/vscode-icons-team/vscode-icons/latest - error GET Fetch timeout: 10000ms
+2025-05-29 12:03:39.483 [error] #13: https://open-vsx.org/vscode/gallery/ziglang/vscode-zig/latest - error GET Fetch timeout: 10000ms
+2025-05-29 12:04:26.467 [error] #14: https://open-vsx.org/vscode/gallery/extensionquery - error POST Failed to fetch

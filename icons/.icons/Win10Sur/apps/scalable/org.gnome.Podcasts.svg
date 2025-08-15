@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="64"
+   height="64"
+   enable-background="new"
+   version="1.0"
+   viewBox="0 0 64 64"
+   id="svg24"
+   sodipodi:docname="org.gnome.Podcasts.svg"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs28">
+    <linearGradient
+       id="linearGradient7561"
+       x1="0.76042998"
+       x2="14.845"
+       y1="1.1638"
+       y2="14.845"
+       gradientTransform="matrix(0.24694,0,0,0.24694,2.6173,3.8869)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#a549d0"
+         offset="0"
+         id="stop257" />
+      <stop
+         stop-color="#c25bef"
+         offset="1"
+         id="stop259" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient7569"
+       x1="30.830999"
+       x2="17.514999"
+       y1="1.1508"
+       y2="15.03"
+       gradientTransform="matrix(0.24694,0,0,0.24694,2.5766,3.8869)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#b143f2"
+         offset="0"
+         id="stop262" />
+      <stop
+         stop-color="#8f32cb"
+         offset="1"
+         id="stop264" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1670"
+       x1="0.76042998"
+       x2="14.845"
+       y1="1.1638"
+       y2="14.845"
+       gradientTransform="matrix(0.24694,0,0,-0.24694,2.6173,11.748)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#8424d5"
+         offset="0"
+         id="stop267" />
+      <stop
+         stop-color="#c25bef"
+         offset="1"
+         id="stop269" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1668"
+       x1="30.830999"
+       x2="17.514999"
+       y1="1.1508"
+       y2="15.03"
+       gradientTransform="matrix(0.24694,0,0,-0.24694,2.5766,11.748)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#6526aa"
+         offset="0"
+         id="stop272" />
+      <stop
+         stop-color="#8f32cb"
+         offset="1"
+         id="stop274" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1448"
+       x1="3.9686999"
+       x2="3.9686999"
+       y1="15.338"
+       y2="0.54084998"
+       gradientTransform="matrix(0.91666,0,0,0.91666,26.674,-20.554)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#8c05eb"
+         offset="0"
+         id="stop1" />
+      <stop
+         stop-color="#5a00a0"
+         offset="1"
+         id="stop2" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="namedview26"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="2.2373301"
+     inkscape:cx="-42.908286"
+     inkscape:cy="48.718783"
+     inkscape:window-width="1920"
+     inkscape:window-height="995"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg24" />
+  <title
+     id="title2">Adwaita Icon Template</title>
+  <g
+     transform="matrix(3.7796,0,0,3.7796,-98.154305,-16.352424)"
+     id="g6">
+    <rect
+       transform="scale(1,-1)"
+       x="27.16"
+       y="-20.069"
+       width="14.552"
+       height="14.552"
+       ry="3.4395001"
+       fill="url(#linearGradient1448)"
+       image-rendering="optimizeSpeed"
+       stroke-opacity="0.95294"
+       stroke-width="0.083152"
+       id="rect6"
+       style="fill:url(#linearGradient1448)" />
+  </g>
+  <path
+     d="M 17,59.500369 H 47 L 44.8571,46 h -25.714 z"
+     enable-background="new"
+     id="path6"
+     style="fill:#8c05eb;fill-opacity:1" />
+  <path
+     d="m 14.156302,17.9997 h 35.686449 l 3.568645,3.733353 V 46.0003 H 10.587327 V 21.733053 Z"
+     enable-background="new"
+     fill="#f6f5f4"
+     id="path8"
+     style="stroke-width:0.82354" />
+  <rect
+     x="10.587904"
+     y="25.411558"
+     width="42.82407"
+     height="14.823716"
+     enable-background="new"
+     fill="#424048"
+     id="rect10"
+     style="stroke-width:0.82354" />
+  <circle
+     cx="21.293921"
+     cy="32.823418"
+     r="3.2941592"
+     enable-background="new"
+     fill="#f6f5f4"
+     id="circle12"
+     style="stroke-width:0.82354" />
+  <circle
+     cx="43.379612"
+     cy="32.823418"
+     r="3.2941592"
+     enable-background="new"
+     fill="#f6f5f4"
+     id="circle14"
+     style="stroke-width:0.82354" />
+  <rect
+     x="26.235159"
+     y="29.529257"
+     width="11.529557"
+     height="6.5883183"
+     enable-background="new"
+     fill="#949390"
+     id="rect16"
+     style="stroke-width:0.82354" />
+  <path
+     d="m 26.23516,29.529257 v 6.588318 h 6.771144 c 0.232222,-1.062284 0.363617,-2.162203 0.363617,-3.294159 0,-1.131955 -0.131395,-2.231875 -0.363617,-3.294159 z"
+     enable-background="new"
+     fill="#424048"
+     opacity="0.5"
+     id="path18"
+     style="stroke-width:0.82354" />
+</svg>

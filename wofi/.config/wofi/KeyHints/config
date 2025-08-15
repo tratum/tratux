@@ -1,0 +1,6 @@
+[launcher]
+# Center the launcher on screen
+location = center
+# Set dimensions (percentages of the screen)
+width = 70%
+height = 70%

@@ -1,0 +1,66 @@
+/* --- Overall Window --- */
+#window {
+    /* Use your preferred font */
+    font: "Afacad Flux Bold 18";
+    /* Use the primary background color from your rasi file */
+    background-color: #11092D;
+    /* Fixed width as per your rasi file */
+    width: 800px;
+    /* Rounded corners */
+    border-radius: 15px;
+    /* Remove any default margin */
+    margin: 0;
+}
+
+/* --- Outer Container --- */
+#outer-box {
+    background-color: #11092D;
+}
+
+/* --- Input (Search Bar) --- */
+#input {
+    font: "Afacad Flux Bold 18";
+    background-color: #11092D;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+/* --- Scroll Container --- */
+#scroll {
+    background-color: transparent;
+}
+
+/* --- Inner Container for Entries --- */
+#inner-box {
+    margin: 30px;
+    background-color: transparent;
+}
+
+/* --- Each Entry (Menu Item) --- */
+#entry {
+    padding: 40px 10px;
+    border-radius: 10px;
+    /* Use your background-alt color */
+    background-color: #281657;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+/* --- Selected (Focused) Entry --- */
+#entry:selected {
+    background-color: #DF5296;
+    color: #11092D;
+}
+
+/* --- Text within Each Entry --- */
+#text {
+    font: "Afacad Flux 32";
+    background-color: transparent;
+    color: inherit;
+    text-align: center;
+}
+
+/* --- Hide Images if Show-Icons is false --- */
+#img {
+    display: none;
+}

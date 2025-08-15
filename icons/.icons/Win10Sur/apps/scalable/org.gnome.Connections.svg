@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="64"
+   height="64"
+   version="1.1"
+   viewBox="0 0 64 64"
+   id="svg6"
+   sodipodi:docname="org.gnome.Connections.svg"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6" />
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="6.15625"
+     inkscape:cx="29.076142"
+     inkscape:cy="27.126904"
+     inkscape:window-width="1920"
+     inkscape:window-height="995"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6" />
+  <rect
+     x="4.4996166"
+     y="4.4996166"
+     width="55.000767"
+     height="55.000767"
+     ry="13.000319"
+     stroke-opacity="0.95294"
+     stroke-width="0.314285"
+     id="rect2"
+     style="fill:#000000;fill-opacity:1" />
+  <g
+     transform="matrix(0.75,0,0,0.75,8,8)"
+     id="g6">
+    <path
+       d="m 22.416,20.84 c 0.14712,6.2876 -1.8894,11.756 -7.6079,15.851 l 8.5274,4.0924 c -0.53042,-6.9787 2.4624,-12.01 7.6079,-15.849 z"
+       fill="#999994"
+       id="path1" />
+    <path
+       d="m 41.331,20.84 c -0.14713,6.2876 1.8874,11.756 7.6079,15.851 l -8.5274,4.0924 c 0.53042,-6.9787 -2.4624,-12.01 -7.6079,-15.849 z"
+       fill="#999994"
+       id="path2" />
+    <path
+       d="m 39.745,43.381 c -5.3894,2.8496 -10.974,3.378 -16.898,-0.0097 l -0.0058,9.4585 c 5.8288,-3.4942 11.433,-2.9715 16.898,0.0116 z"
+       fill="#999994"
+       id="path3" />
+    <path
+       d="M 44,16 C 44,22.627 38.627,28 32,28 25.373,28 20,22.627 20,16 20,9.373 25.373,4 32,4 38.627,4 44,9.373 44,16 Z"
+       fill="#f9f9f9"
+       id="path4" />
+    <path
+       d="M 26,48 C 26,54.627 20.6289,60 14,60 7.373,60 2,54.627 2,48 c 10e-8,-6.627 5.373,-12 12,-12 6.6289,0 12,5.373 12,12 z"
+       fill="#f9f9f9"
+       id="path5" />
+    <path
+       d="m 62,48 c 0,6.627 -5.3711,12 -12,12 -6.6269,0 -12,-5.373 -12,-12 0,-6.627 5.373,-12 12,-12 6.6289,0 12,5.373 12,12 z"
+       fill="#f9f9f9"
+       id="path6" />
+  </g>
+</svg>

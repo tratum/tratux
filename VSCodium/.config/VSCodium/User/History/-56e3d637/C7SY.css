@@ -1,0 +1,13 @@
+/* Set a translucent background for the window */
+window {
+    background-color: #1B1719;
+}
+
+/* Style the text in the list */
+listview {
+    color: #ffffff;
+    font-family: monospace;
+    font-size: 14px;
+    white-space: pre; 
+}
+

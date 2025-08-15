@@ -1,0 +1,125 @@
+"sway/workspace": {
+	"format": "{name}",
+	"format": " {name} {icon} ",
+	//"format": " {icon} ",
+	"show-special": false,
+	"on-click": "activate",
+//	"on-scroll-up": "hyprctl dispatch workspace e+1",
+//	"on-scroll-down": "hyprctl dispatch workspace e-1",
+	"all-outputs": true,
+	"sort-by-number": true,
+	"format-icons": {
+		"1": " ",
+		"2": " ",
+		"3": " ",
+		"4": " ",
+		"5": " ",
+		"6": " ",
+		"7": "",
+		"8": " ",
+		"9": "",
+		"10": "10",
+		"focused": "",
+		"default": "",
+	},
+},
+"clock": {
+    "format": "{:%A  |  %I:%M %p  |  %e %B}", // AM PM format
+    //"format": "  {:%H:%M}", // 24H
+    "format-alt": "  {:%I:%M %p}",
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+},
+"battery": {
+    "full-at": 100,
+    "design-capacity": false,
+    "states": {
+	    "good": 95,
+	    "warning": 30,
+	    "critical": 15
+    },
+    "format": "{capacity}% {icon}",
+    "format-charging": "{capacity}% ",
+    "format-plugged": "{capacity}% 󱘖 ",
+    "format-alt-click": "click",
+    "format-full": "Full {icon}",
+    "format-alt": "{icon} {time}",
+    "format-icons": [
+	    "󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"
+    ],
+    "format-time": "{H}h {M}min",
+    "tooltip": true,
+    "tooltip-format": "{timeTo} {power}w",
+    "on-click-middle": "~/.config/hypr/scripts/ChangeBlur.sh",
+    "on-click-right": "~/.config/hypr/scripts/Wlogout.sh",
+},
+"cycle_wall": {
+    "format": " ",
+    "on-click": "~/.config/hypr/UserScripts/WallpaperRandom.sh",
+    "on-click-right": "~/.config/hypr/UserScripts/WallpaperSelect.sh",
+    //"on-click-middle": "~/.config/hypr/scripts/WaybarStyles.sh",
+    "tooltip": true,
+    "tooltip-format": "Left Click: Random wallpaper\nRight Click: Wallpaper Menu",
+},
+"power-profiles-daemon": {
+    "format": "{icon}",
+    "tooltip-format": "Power profile: {profile}\nDriver: {driver}",
+    "tooltip": true,
+    "format-icons": {
+      "default": "",
+      "performance": "",
+      "balanced": "",
+      "power-saver": ""
+    }
+  },
+"light_dark_mode": {
+    "format": "󰃟 ",
+    "on-click": "~/.config/hypr/scripts/DarkLight.sh",
+    "on-click-right": "~/.config/hypr/scripts/WaybarStyles.sh",
+    "on-click-middle": "~/.config/hypr/UserScripts/WallpaperSelect.sh",
+    "tooltip": true,
+    "tooltip-format": "Left Click: Switch Dark-Light Themes\nMiddle Click: Wallpaper Menu\nRight Click: Waybar Styles Menu",
+},
+"power": {
+    "format": "⏻ ",
+    "on-click": "~/.config/hypr/scripts/Wlogout.sh",
+    "on-click-right": "~/.config/hypr/scripts/ChangeBlur.sh",
+    "tooltip": true,
+    "tooltip-format": "Left Click: Logout Menu\nRight Click: Change Blur",
+},
+"tray": {
+    "icon-size": 26,
+    "spacing": 4,
+},
+
+
+// Separators
+"custom/separator#dot": {
+    "format": "",
+    "interval": "once",
+    "tooltip": false
+},
+"custom/separator#dot-line": {
+    "format": "",
+    "interval": "once",
+    "tooltip": false
+},
+"custom/separator#line": {
+    "format": "|",
+    "interval": "once",
+    "tooltip": false
+},
+"custom/separator#blank": {
+    "format": "",
+    "interval": "once",
+    "tooltip": false
+},
+"custom/separator#blank_2": {
+    "format": "  ",
+    "interval": "once",
+    "tooltip": false
+},
+"custom/separator#blank_3": {
+    "format": "   ",
+    "interval": "once",
+    "tooltip": false
+},

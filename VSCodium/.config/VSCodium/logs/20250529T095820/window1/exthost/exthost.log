@@ -1,0 +1,36 @@
+2025-05-29 09:58:24.485 [info] Extension host with pid 3100 started
+2025-05-29 09:58:24.730 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-05-29 09:58:24.848 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2025-05-29 09:58:24.861 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-05-29 09:58:24.939 [info] Eager extensions activated
+2025-05-29 09:58:24.951 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-05-29 09:58:24.958 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-05-29 09:58:25.023 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-05-29 09:58:25.229 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2025-05-29 09:58:25.292 [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: false, activationEvent: 'onStartupFinished'
+2025-05-29 09:58:25.573 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-05-29 09:58:25.591 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-05-29 09:58:25.723 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-05-29 09:58:30.985 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2025-05-29 09:58:31.237 [info] ExtensionService#_doActivateExtension gencer.html-slim-scss-css-class-completion, startup: false, activationEvent: '*'
+2025-05-29 09:59:14.378 [info] Extension host terminating: renderer closed the MessagePort
+2025-05-29 09:59:14.398 [info] Extension host with pid 3100 exiting with code 0
+2025-05-29 09:59:17.832 [info] Extension host with pid 3260 started
+2025-05-29 09:59:17.832 [info] Skipping acquiring lock for /home/tratum/.config/VSCodium/User/workspaceStorage/462a7b406e971fdcad500150b0bf11ff.
+2025-05-29 09:59:18.218 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-05-29 09:59:18.275 [info] ExtensionService#_doActivateExtension timonwong.shellcheck, startup: false, activationEvent: 'onLanguage:shellscript'
+2025-05-29 09:59:18.489 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-05-29 09:59:18.496 [info] ExtensionService#_doActivateExtension gencer.html-slim-scss-css-class-completion, startup: true, activationEvent: '*'
+2025-05-29 09:59:18.715 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-05-29 09:59:18.814 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-05-29 09:59:19.135 [info] Eager extensions activated
+2025-05-29 09:59:19.166 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-05-29 09:59:19.177 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-05-29 09:59:19.254 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-05-29 09:59:19.424 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2025-05-29 09:59:19.467 [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: false, activationEvent: 'onStartupFinished'
+2025-05-29 09:59:22.955 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-05-29 09:59:23.003 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-05-29 09:59:23.226 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-05-29 09:59:27.986 [info] ExtensionService#_doActivateExtension ziglang.vscode-zig, startup: false, activationEvent: 'onLanguage:zig'
+2025-05-29 09:59:28.687 [warning] DiagnosticCollection with name 'zig' does already exist.

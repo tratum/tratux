@@ -1,0 +1,62 @@
+/* Overall window styling */
+window {
+    font: "Afacad Flux Bold 18";
+    background-color: #11092D;
+    width: 800px;
+    border-radius: 15px;
+    margin: 5px; /* you can adjust this if needed */
+}
+
+/* The outer container that holds everything */
+#outer-box {
+    background-color: #11092D;
+    margin: 5px;
+    padding: 0;
+}
+
+/* The input field used for filtering */
+#input {
+    background-color: #281657;
+    color: #FFFFFF;
+    margin: 5px;
+    padding: 10px;
+    border: none;
+}
+
+/* The scrolling container */
+#scroll {
+    background-color: #11092D;
+    margin: 5px;
+}
+
+/* The container for all entries */
+#inner-box {
+    background-color: transparent;
+    margin: 5px;
+}
+
+/* Each individual entry (menu item) */
+#entry {
+    background-color: #11092D;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    margin: 5px 0;
+    border-radius: 10px;
+}
+
+/* Styling for the selected (focused) entry */
+#entry:selected {
+    background-color: #DF5296;
+    color: #11092D;
+}
+
+/* The text inside each entry */
+#text {
+    background-color: transparent;
+    margin: 5px;
+}
+
+/* Hide images (icons) if you don’t want them */
+#img {
+    display: none;
+}

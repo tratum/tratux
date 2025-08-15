@@ -1,0 +1,4 @@
+2025-05-29 11:39:19.676 [error] #21: https://raw.githubusercontent.com/EclipseFdn/publish-extensions/refs/heads/master/extension-control/extensions.json - error GET net::ERR_INTERNET_DISCONNECTED
+2025-05-29 11:44:19.686 [error] #22: https://raw.githubusercontent.com/EclipseFdn/publish-extensions/refs/heads/master/extension-control/extensions.json - error GET net::ERR_INTERNET_DISCONNECTED
+2025-05-29 11:49:19.693 [error] #23: https://raw.githubusercontent.com/EclipseFdn/publish-extensions/refs/heads/master/extension-control/extensions.json - error GET net::ERR_INTERNET_DISCONNECTED
+2025-05-29 11:54:19.700 [error] #24: https://raw.githubusercontent.com/EclipseFdn/publish-extensions/refs/heads/master/extension-control/extensions.json - error GET net::ERR_INTERNET_DISCONNECTED

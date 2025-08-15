@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="64" height="64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient2116" x1="59.5" x2="4.5" y1="4.5" y2="59.5" gradientTransform="translate(377.07 492.3)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#86b96f" offset="0"/>
+   <stop stop-color="#65994d" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient14159" x1="406.57" x2="426.57" y1="521.8" y2="521.8" gradientTransform="matrix(1.4 0 0 1.4 -172.63 -206.72)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#2b2d30" offset="0"/>
+   <stop stop-color="#414548" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g transform="translate(-376.57 -491.8)">
+  <rect x="381.57" y="496.8" width="55" height="55" ry="13" fill="url(#linearGradient2116)" stroke-width="2.124"/>
+  <rect x="396.57" y="509.8" width="28" height="28" ry="2" fill="url(#linearGradient14159)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.68"/>
+  <path d="m403.43 517.37v2.8571h-1.4286v2.8572h-1.4286v1.4286h1.4286v2.8571h1.4286v1.4286h1.4286v-2.8571h1.4286v-1.4286h2.8571v1.4286h1.4286v1.4286h1.4286v1.4286h1.4286v2.8572h1.4286v-1.4286h1.4286v-2.8571h1.4286v-1.4286h1.4286v-1.4286h1.4286v-1.4286h-1.4286v-1.4286h-1.4286v-1.4286h-1.4286v-2.8571h-1.4286v-1.4286h-1.4286v2.8571h-1.4286v1.4286h-1.4286v1.4286h-1.4286v1.4286h-2.8571v-1.4286h-1.4286v-4.2857z" fill="#afc0c6" stroke-linecap="round" stroke-width="2.8571"/>
+  <path transform="translate(376.57 491.8)" d="m5 45v2c0 7.202 5.798 13 13 13h29c7.202 0 13-5.798 13-13v-2c0 7.202-5.798 13-13 13h-29c-7.202 0-13-5.798-13-13z" fill="#dce269" stroke-width="2.124"/>
+  <path d="m421.57 506.8v1h-1v-1zm-1 1v1h-1v-1zm-1 0h-1v-1h1zm-1 0v1h-1v-1zm-1 0h-1v-1h1zm-1 0v1h-1v-1zm-1 0h-1v-1h1zm-1 0v1h-1v-1zm-1 0h-1v-1h1zm-1 0v1h-1v-1zm-1 0h-1v-1h1zm-1 0v1h-1v-1zm-1 0h-1v-1h1zm-1 0v1h-1v-1zm-1 0h-1v-1h1zm-1 0v1h-1v-1z" color="#000000"/>
+  <path d="m415.57 506.8v1h-1v-1zm-1 1v1h-1v-1zm-1 0h-1v-1h1zm-1 0v1h-1v-1zm-1 0h-1v-1h1zm-1 0v1h-1v-1zm-1 0h-1v-1h1zm-1 0v1h-1v-1zm-1 0h-1v-1h1zm-1 0v1h-1v-1zm-1 0h-1v-1h1zm-1 0v1h-1v-1zm-1 0h-1v-1h1zm-1 0v1h-1v-1zm-1 0h-1v-1h1zm-1 0v1h-1v-1z" color="#000000"/>
+  <g transform="translate(0,32)">
+   <path d="m421.57 506.8v1h-1v-1zm-1 1v1h-1v-1zm-1 0h-1v-1h1zm-1 0v1h-1v-1zm-1 0h-1v-1h1zm-1 0v1h-1v-1zm-1 0h-1v-1h1zm-1 0v1h-1v-1zm-1 0h-1v-1h1zm-1 0v1h-1v-1zm-1 0h-1v-1h1zm-1 0v1h-1v-1zm-1 0h-1v-1h1zm-1 0v1h-1v-1zm-1 0h-1v-1h1zm-1 0v1h-1v-1z" color="#000000"/>
+   <path d="m415.57 506.8v1h-1v-1zm-1 1v1h-1v-1zm-1 0h-1v-1h1zm-1 0v1h-1v-1zm-1 0h-1v-1h1zm-1 0v1h-1v-1zm-1 0h-1v-1h1zm-1 0v1h-1v-1zm-1 0h-1v-1h1zm-1 0v1h-1v-1zm-1 0h-1v-1h1zm-1 0v1h-1v-1zm-1 0h-1v-1h1zm-1 0v1h-1v-1zm-1 0h-1v-1h1zm-1 0v1h-1v-1z" color="#000000"/>
+  </g>
+  <g stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2">
+   <rect x="380.07" y="509.8" width="10" height="4" ry="1" fill="#e00a5e"/>
+   <rect x="380.07" y="517.8" width="10" height="4" ry="1" fill="#f9b425"/>
+   <rect x="380.07" y="525.8" width="10" height="4" ry="1" fill="#22a7f0"/>
+   <rect x="380.07" y="533.8" width="10" height="4" ry="1" fill="#26c281"/>
+  </g>
+  <path d="m384.57 538.8v1h1v-1zm1 1v1h1v-1zm1 0h1v-1h-1zm1 0v1h1v-1zm1 0h1v-1h-1zm-4 0h-1v1h1z" color="#000000"/>
+ </g>
+</svg>

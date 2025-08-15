@@ -1,0 +1,1 @@
+2025-06-03 22:04:50.054 [error] Failed to set sticky bit on /tmp/tratum-codium-zsh: Error: ENOENT: no such file or directory, chmod '/tmp/tratum-codium-zsh'

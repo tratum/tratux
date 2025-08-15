@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient1448-5" x1="3.9687" x2="3.9687" y1="16.385" y2=".54085" gradientTransform="matrix(3.4646 0 0 3.4646 -47.131 8.2519)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#cfdef0" offset="0"/>
+   <stop stop-color="#f5faff" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient1229" x1="17" x2="17" y1="7" y2="51" gradientTransform="matrix(.66667 0 0 .66667 -31.798 15.955)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#6c7378" offset="0"/>
+   <stop stop-color="#42464a" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient1242" x1="-9" x2="45" y1="50" y2="50" gradientTransform="matrix(.66667 0 0 .66667 -31.798 15.955)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#a1aab3" offset="0"/>
+   <stop stop-color="#818990" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient1255" x1="-9" x2="45" y1="6.9456" y2="50.946" gradientTransform="matrix(.51852 0 0 .5 -21.131 29.113)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#3ccbf4" offset="0"/>
+   <stop stop-color="#1594df" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient1257" x1="-6.6522" x2="42.652" y1="50" y2="50" gradientTransform="matrix(.5679 0 0 .5 -22.02 29.113)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#50e5ff" offset="0"/>
+   <stop stop-color="#29b1eb" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g transform="translate(49.798 -5.5855)">
+  <rect x="-45.298" y="10.085" width="55.001" height="55.001" ry="13" fill="url(#linearGradient1448-5)" stroke-opacity=".95294" stroke-width=".31428"/>
+  <g stroke-linecap="round" stroke-linejoin="round">
+   <rect x="-37.798" y="20.586" width="36" height="29.333" ry="2" fill="url(#linearGradient1229)" stroke-width="1.3463" style="paint-order:stroke fill markers"/>
+   <path d="m-37.798 47.919c0 1.108 0.892 2 2 2h32c1.108 0 2-0.892 2-2z" fill="url(#linearGradient1242)" stroke-width="1.3333" style="paint-order:stroke fill markers"/>
+   <rect x="-25.798" y="32.586" width="28" height="22" ry="2" fill="url(#linearGradient1255)" stroke-width="1.0282" style="paint-order:stroke fill markers"/>
+   <path d="m-25.798 52.586v0.13932c0 0.73867 0.59467 1.8607 1.3333 1.8607h25.333c0.73867 0 1.3333-1.122 1.3333-1.8607v-0.13932z" fill="url(#linearGradient1257)" stroke-width="1.0658" style="paint-order:stroke fill markers"/>
+  </g>
+ </g>
+</svg>

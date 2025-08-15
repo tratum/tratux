@@ -1,0 +1,113 @@
+/*****----- Configuration -----*****/
+configuration {
+    show-icons: false;
+}
+
+/*****----- Global Properties -----*****/
+* {
+    font:             "Afacad Flux Bold 18";
+    background:       rgba(45, 27, 20, 0.85);
+    background-alt:   #462D23;
+    foreground:       #FFFFFF;
+    selected:         #E25F3E;
+    active:           #716251;
+    urgent:           #934A1C;
+}
+
+/*
+USE_ICON=YES
+*/
+
+/*****----- Main Window -----*****/
+window {
+    transparency:     "real";
+    location:         center;
+    anchor:           center;
+    fullscreen:       false;
+    width:            800px;
+    x-offset:         0px;
+    y-offset:         0px;
+    margin:           0px;
+    padding:          0px;
+    border:           0px solid;
+    border-radius:    20px;
+    border-color:     @selected;
+    cursor:           "default";
+    background-color: @background;
+}
+
+/*****----- Main Box -----*****/
+mainbox {
+    enabled:          true;
+    spacing:          20px;
+    margin:           0px;
+    padding:          20px;
+    background-color: transparent;
+
+    /* Remove inputbar and message from children, leaving only the listview */
+    children:         [ "listview" ];
+}
+
+/* Remove or disable the overlapping elements */
+inputbar {
+    enabled: false;
+}
+message {
+    enabled: false;
+}
+
+/*****----- Listview -----*****/
+listview {
+    enabled:          true;
+    columns:          6;
+    lines:            1;
+    cycle:            true;
+    scrollbar:        false;
+    layout:           vertical;
+    spacing:          20px;
+    background-color: transparent;
+    cursor:           "default";
+}
+
+/*****----- Elements -----*****/
+element {
+    enabled:          true;
+    padding:          30px 10px;
+    border:           0px solid;
+    border-radius:    20px;
+    border-color:     @selected;
+    background-color: transparent;
+    text-color:       @foreground;
+    cursor:           pointer;
+}
+element-text {
+    font:             "feather 28";
+    background-color: transparent;
+    text-color:       inherit;
+    cursor:           inherit;
+    vertical-align:   0.5;
+    horizontal-align: 0.5;
+}
+
+/* Normal, urgent, active, selected styling */
+element normal.normal,
+element alternate.normal {
+    background-color: var(background-alt);
+    text-color:       var(foreground);
+}
+element normal.urgent,
+element alternate.urgent,
+element selected.active {
+    background-color: var(urgent);
+    text-color:       var(background);
+}
+element normal.active,
+element alternate.active,
+element selected.urgent {
+    background-color: var(active);
+    text-color:       var(background);
+}
+element selected.normal {
+    background-color: var(selected);
+    text-color:       var(background);
+}

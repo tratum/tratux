@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="64"
+   height="64"
+   version="1.1"
+   viewBox="0 0 64 64"
+   id="svg21"
+   sodipodi:docname="podcast-amarok.svg"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview23"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="4.4746601"
+     inkscape:cx="45.366574"
+     inkscape:cy="24.582873"
+     inkscape:window-width="1920"
+     inkscape:window-height="995"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg21" />
+  <defs
+     id="defs5">
+    <clipPath
+       id="a">
+      <circle
+         cx="8.467"
+         cy="288.53"
+         r="6.879"
+         fill="#d86eb0"
+         stroke-opacity=".039"
+         stroke-width=".491"
+         style="paint-order:stroke markers fill"
+         id="circle2" />
+    </clipPath>
+    <linearGradient
+       id="b"
+       x1="9.2602997"
+       x2="9.2602997"
+       y1="-0.26249"
+       y2="15.612"
+       gradientTransform="matrix(3.779602,0,0,3.779602,88.179711,2.9920828)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#36474f"
+         offset="0"
+         id="stop257" />
+      <stop
+         stop-color="#273238"
+         stop-opacity=".98824"
+         offset="1"
+         id="stop259" />
+    </linearGradient>
+    <filter
+       id="c"
+       x="-0.059737744"
+       y="-0.060264565"
+       width="1.1194755"
+       height="1.1205291"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         stdDeviation="0.15945"
+         id="feGaussianBlur262" />
+    </filter>
+    <clipPath
+       id="a-3">
+      <circle
+         cx="8.467"
+         cy="288.53"
+         r="6.8790002"
+         fill="#d86eb0"
+         stroke-opacity="0.039"
+         stroke-width="0.491"
+         style="paint-order:stroke markers fill"
+         id="circle254" />
+    </clipPath>
+    <linearGradient
+       id="linearGradient1448"
+       x1="3.9686999"
+       x2="3.9686999"
+       y1="15.338"
+       y2="0.54084998"
+       gradientTransform="matrix(3.46461,0,0,3.46461,2.6664164,-61.333488)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#36474f"
+         offset="0"
+         id="stop1" />
+      <stop
+         stop-color="#273339"
+         stop-opacity=".98824"
+         offset="1"
+         id="stop2" />
+    </linearGradient>
+    <filter
+       id="c-3"
+       x="-0.059737744"
+       y="-0.060264565"
+       width="1.1194755"
+       height="1.1205291"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         stdDeviation="0.15945"
+         id="feGaussianBlur1" />
+    </filter>
+  </defs>
+  <rect
+     transform="scale(1,-1)"
+     x="4.499939"
+     y="-59.500385"
+     width="55.000767"
+     height="55.000767"
+     ry="12.999942"
+     fill="url(#linearGradient1448)"
+     stroke-opacity="0.95294"
+     stroke-width="0.314281"
+     id="rect2"
+     style="fill:url(#linearGradient1448)" />
+  <g
+     fill="#ffffff"
+     fill-opacity="0.937"
+     shape-rendering="auto"
+     id="g6"
+     transform="matrix(3.779602,0,0,3.779602,3.229e-4,-0.001893)">
+    <path
+       transform="scale(0.26458)"
+       d="m 4.5,28.93 v 0.5332 c 1.9427,1.2158 3.7887,3.3015 5.4961,7.2109 2.9604,6.7817 7.1894,9.8524 12.283,10.092 3.2952,0.15585 6.2647,-1.2119 8.8281,-3.2402 2.5634,-2.0284 4.7315,-4.7192 6.4531,-7.2578 3.4557,-5.0951 8.3147,-7.3912 13.021,-7.9434 3.2354,-0.37958 6.3561,0.11096 8.918,1.0449 v -0.46875 c -2.6029,-0.92473 -5.7223,-1.3987 -8.9707,-1.0176 -4.8145,0.56484 -9.8153,2.9294 -13.346,8.1348 -1.706,2.5157 -3.8472,5.1754 -6.3555,7.1602 -2.5083,1.9847 -5.3684,3.2861 -8.5273,3.1367 -4.9276,-0.23158 -8.9745,-3.1336 -11.893,-9.8184 -1.7949,-4.1097 -3.7948,-6.3174 -5.9082,-7.5664 z"
+       color="#000000"
+       color-rendering="auto"
+       dominant-baseline="auto"
+       image-rendering="auto"
+       opacity="0.35"
+       solid-color="#000000"
+       stop-color="#000000"
+       style="font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;text-transform:none;text-orientation:mixed;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;isolation:auto;mix-blend-mode:normal"
+       id="path4" />
+    <path
+       transform="scale(0.26458)"
+       d="m 4.5,28.625 v 0.46484 c 1.145,-0.19264 2.3188,-0.24854 3.4805,-0.0332 2.1571,0.39987 4.2481,1.6364 5.9414,4.3184 1.5684,2.483 3.2934,5.6331 6.002,8.082 2.7086,2.4489 6.4098,4.18 11.855,3.832 6.4943,-0.41743 13.028,-3.1312 16.396,-9.4863 2.2956,-4.0477 5.4537,-8.0753 9.8535,-9.0645 0.55666,-0.11885 1.0038,-0.12285 1.4707,-0.14648 v -0.44141 c -0.50174,0.02389 -0.98743,0.02873 -1.5664,0.15234 -4.608,1.036 -7.831,5.1896 -10.15,9.2793 v 0.0059 c -3.2793,6.197 -9.6323,8.8469 -16.025,9.2578 -5.3388,0.3411 -8.8945,-1.3367 -11.531,-3.7207 -2.6368,-2.384 -4.3476,-5.4926 -5.9277,-7.9941 -1.7497,-2.7713 -3.9678,-4.0967 -6.2383,-4.5176 C 6.8632,28.3913 5.6646,28.4364 4.5002,28.62501 Z"
+       color="#000000"
+       color-rendering="auto"
+       dominant-baseline="auto"
+       image-rendering="auto"
+       opacity="0.35"
+       solid-color="#000000"
+       stop-color="#000000"
+       style="font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;text-transform:none;text-orientation:mixed;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;isolation:auto;mix-blend-mode:normal"
+       id="path5" />
+    <path
+       transform="scale(0.26458)"
+       d="m 4.5,38 v 0.48047 c 4.3122,-1.7201 10.991,-3.3044 16.553,-1.6816 5.5553,1.6233 12.823,8.0668 26.502,6.5625 3.6641,-0.40021 6.7728,-2.5129 9.6777,-6.4727 0.87757,-1.1967 1.5633,-2.048 2.2676,-2.8125 v -0.70508 c -0.83837,0.84086 -1.6299,1.8897 -2.6289,3.252 -2.8602,3.8986 -5.8445,5.9121 -9.3672,6.2969 -13.524,1.4873 -20.567,-4.8666 -26.324,-6.5488 -5.6613,-1.6518 -12.296,-0.09851 -16.68,1.6289 z"
+       color="#000000"
+       color-rendering="auto"
+       dominant-baseline="auto"
+       image-rendering="auto"
+       opacity="0.35"
+       solid-color="#000000"
+       stop-color="#000000"
+       style="font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;text-transform:none;text-orientation:mixed;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;isolation:auto;mix-blend-mode:normal"
+       id="path6" />
+  </g>
+  <g
+     id="g1"
+     transform="matrix(1.3043479,0,0,1.3043479,-121.63144,-9.1391334)">
+    <rect
+       x="111.7851"
+       y="20.040001"
+       width="12"
+       height="20"
+       rx="6"
+       ry="6"
+       fill="#ffffff"
+       style="paint-order:stroke markers fill"
+       id="rect1" />
+    <path
+       d="m 109.2851,33.54 a 0.499,0.499 0 0 0 -0.5,0.5 0.499,0.499 0 0 0 0.006,0.062 9,9 0 0 0 8.994,8.938 9,9 0 0 0 8.996,-8.95 0.499,0.499 0 0 0 0.002,-0.036 9,9 0 0 0 0,-0.014 0.499,0.499 0 0 0 -0.5,-0.498 0.499,0.499 0 0 0 -0.498,0.498 h -0.002 a 7.998,7.998 0 0 1 -7.998,8 7.998,7.998 0 0 1 -7.996,-8 h -0.006 a 0.499,0.499 0 0 0 -0.498,-0.498 z"
+       fill="#ffffff"
+       style="paint-order:stroke markers fill"
+       id="path1" />
+  </g>
+</svg>

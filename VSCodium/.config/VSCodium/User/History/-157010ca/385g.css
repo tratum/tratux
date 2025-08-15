@@ -1,0 +1,129 @@
+/* ---------- Global Variables (converted from rasi global properties) ---------- */
+:root {
+    --font: "Afacad Flux Bold 18";
+    --background: #11092D;
+    --background-alt: #281657;
+    --foreground: #FFFFFF;
+    --selected: #DF5296;
+    --active: #6E77FF;
+    --urgent: #8E3596;
+  }
+  
+  /* ---------- Main Window ---------- */
+  .window {
+    /* Centering: absolute positioning with transform */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    padding: 0;
+    border: 0 solid var(--selected);
+    border-radius: 15px;
+    cursor: default;
+    background-color: var(--background);
+    opacity: 1;
+  }
+  
+  /* ---------- Main Box ---------- */
+  .mainbox {
+    display: flex;
+    flex-direction: row; /* horizontal orientation */
+    background-color: transparent;
+  }
+  
+  /* ---------- Imagebox ---------- */
+  .imagebox {
+    display: flex;
+    flex-direction: column;  /* assumes vertical stacking of children */
+    gap: 30px;  /* equivalent to spacing: 30px; */
+    padding: 30px;
+    background-color: transparent;
+    background-image: url("~/.config/wofi/images/a.png");
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+  }
+  
+  /* ---------- User Image ---------- */
+  .userimage {
+    margin: 0;
+    border: 10px solid var(--background-alt);
+    border-radius: 10px;
+    background-color: transparent;
+    background-image: url("~/.config/wofi/images/a.png");
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+  }
+  
+  /* ---------- Inputbar ---------- */
+  .inputbar {
+    padding: 15px;
+    border-radius: 10px;
+    background-color: var(--urgent);
+    color: var(--foreground);
+    display: flex;
+  }
+  
+  /* ---------- Dummy & Prompt ---------- */
+  .dummy {
+    background-color: transparent;
+  }
+  
+  .prompt {
+    background-color: inherit;
+    color: inherit;
+  }
+  
+  /* ---------- Message ---------- */
+  .message {
+    margin: 0;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: var(--active);
+    color: var(--background);
+  }
+  
+  /* ---------- Textbox ---------- */
+  .textbox {
+    background-color: inherit;
+    color: inherit;
+    display: flex;
+    align-items: center;     /* vertical-align equivalent */
+    justify-content: center; /* horizontal-align equivalent */
+  }
+  
+  /* ---------- Listview ---------- */
+  .listview {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    gap: 30px;  /* spacing between items */
+    margin: 30px;
+    background-color: transparent;
+    cursor: default;
+  }
+  
+  /* ---------- Elements ---------- */
+  .element {
+    padding: 40px 10px;
+    border-radius: 10px;
+    background-color: var(--background-alt);
+    color: var(--foreground);
+    cursor: pointer;
+  }
+  
+  /* ---------- Element Text ---------- */
+  .element-text {
+    font: "Afacad Flux 32";
+    background-color: transparent;
+    color: inherit;
+    cursor: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* ---------- Selected Element (normal state) ---------- */
+  .element.selected.normal {
+    background-color: var(--selected);
+    color: var(--background);
+  }  

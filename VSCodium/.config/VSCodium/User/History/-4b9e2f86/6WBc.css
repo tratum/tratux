@@ -1,0 +1,189 @@
+/* Global Styles */
+#workspaces,
+#custom-wallpaper-cycle,
+#custom-light-dark-mode,
+#clock,
+#network,
+#bluetooth,
+#pulseaudio,
+#pulseaudio.microphone,
+#battery,
+#power-profiles-daemon,
+#custom-power-menu {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+* {
+  font-family: "Afacad Flux";
+  font-size: 96%;
+  font-weight: 500;
+}
+
+/* Waybar Container */
+window#waybar {
+  background-color: transparent;
+  border-radius: 2px;
+  color: black;  
+}
+
+window#waybar.hidden {
+  opacity: 0.4;
+}
+
+/* Workspaces Module (sway/workspaces#1) */
+#workspaces {
+  background-color: #DBDBDB;
+  border-radius: 50px;
+  padding: 8px 12px;
+  margin: 4px 10px;
+}
+
+/* Workspace Buttons */
+#workspaces button {
+  color: black;
+  padding: 6px 0 6px 0;
+  margin: 0 4px 0 4px;
+  border-radius: 50px;
+  box-shadow: none;
+  text-shadow: none;
+  transition: all 0.5s;
+}
+
+
+#workspaces button.active {
+  color: #268bd2;
+  transition: all 0.3s; 
+}
+
+#workspaces button.focused {
+	color: #268bd2;
+  /*animation: blink 1.5s infinite;*/
+}
+
+/* blink Animation for Active Workspace */
+/*@keyframes blink {
+  0% {
+    color: #268bd2;
+  }
+  50% {
+    color: #ffffff;
+  }
+  100% {
+    color: #268bd2;
+  }
+}
+*/
+
+#custom-wallpaper-cycle {
+  background-color: #DBDBDB;
+  border-radius: 50px 0 0 50px;
+  padding: 6px 12px 6px 24px; 
+  margin: 4px 0 4px 0;
+  color: black;
+  font-family: "Afacad Flux";
+}
+
+#custom-light-dark-mode {
+  background-color: #DBDBDB;
+  font-size: 26px;
+  border-radius: 0 50px 50px 0;
+  padding: 6px 18px 6px 0;
+  margin: 4px 0 4px 0; 
+  color: black;
+  font-family: "Afacad Flux";
+}
+
+#clock {
+  background-color: #DBDBDB;
+  border-radius: 50px 0 0 50px;
+  padding: 6px 16px 6px 10px;
+  margin: 4px 0 4px 0;
+  color: black;
+  font-family: "Afacad Flux";
+  font-weight: bolder;
+}
+
+#custom-dunst {
+  color: black;
+  background-color: #DBDBDB;
+  border-radius: 0 50px 50px 0;
+  margin: 4px 0 4px 0;
+  padding: 6px 24px 6px 0;
+  font-family: "Afacad Flux";
+  font-weight: bolder;
+}
+
+#network {
+  color: #268bd2;
+  background-color: #DBDBDB;
+  border-radius: 50px;
+  padding: 0 24px 0 24px;
+  margin: 4px 10px;
+}
+
+#network.disconnected {
+  color: #fb958b;
+}
+
+#bluetooth {
+  color: black;
+  background-color: #DBDBDB;
+  padding: 4px 14px 4px 28px; /* top/right/bottom/left */
+  border-radius: 50px 0 0 50px;
+  margin: 4px 0 4px 10px;
+}
+
+#pulseaudio {
+  color: #a55377;
+  background-color: #DBDBDB;
+  padding: 4px 14px 4px 14px; /* top/right/bottom/left */
+  border-radius: 0;
+  margin: 4px 0 4px 0;
+}
+
+#pulseaudio.microphone {
+  background-color: #DBDBDB;
+  color: #a55377;
+  padding: 4px 32px 4px 14px; /* top/right/bottom/left */
+  border-radius: 0 50px 50px 0;
+  margin: 4px 10px 4px 0;
+}
+
+#battery {
+  background-color: #DBDBDB;
+  color: black;
+  border-radius: 50px 0 0 50px;
+  padding: 0 26px 0 26px; 
+  margin: 4px 0 4px 10px;
+}
+
+#battery.critical,
+#battery.warning,
+#battery.full {
+  color: #268bd2;
+}
+#battery.plugged {
+  color: #91ffc3;
+}
+#battery.charging {
+  color: #87bb82;
+  padding: 0 10px 0 26px; 
+}
+
+#power-profiles-daemon{
+  background-color: #DBDBDB;
+  color: black;
+  border-radius: 0;
+  padding: 0 16px 0 16px; 
+  margin: 4px 0 4px 0;
+}
+
+#custom-power-menu {
+  color: #a55377;
+  font-family: "Afacad Flux";
+  background-color: #DBDBDB;
+  border-radius: 0 50px 50px 0;
+  padding: 6px 26px 0 24px;
+  margin: 4px 10px 4px 0px;
+}

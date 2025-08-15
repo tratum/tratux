@@ -24,10 +24,10 @@ curl -fsS https://dl.brave.com/install.sh | sh
 curl -s https://api.github.com/repos/sentriz/cliphist/releases/latest | jq -r '.assets[] | select(.name | test("linux-amd64")) | .browser_download_url' | xargs -I{} sh -c 'curl -L -o cliphist {}; chmod +x cliphist; sudo mv cliphist /usr/local/bin; cliphist wipe; wl-paste --watch cliphist store &'
 
 ## Manually install wallust
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh && cargo install wallust
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh && source $HOME/.cargo/env && cargo install wallust
 
 ## Manually Install Autotiling
-git clone https://github.com/ammgws/autotiling-rs.git && cd autotiling-rs && cargo build --release && mv target/release/autotiling ~/.cargo/bin/ && cd .. && rm -rf autotiling-rs
+git clone https://github.com/ammgws/autotiling-rs.git && cd autotiling-rs && cargo build --release && mv target/release/autotiling-rs ~/.cargo/bin/ && ~/.cargo/bin/autotiling-rs && rm -rf $HOME/autotiling-rs
 
 ## Manually Install VSCodium
 url -s https://api.github.com/repos/VSCodium/vscodium/releases/latest | grep browser_download_url | grep 'x86_64.rpm' | cut -d '"' -f 4 | wget -qi - && sudo dnf install -y codium*.rpm && rm -f codium*.rpm
@@ -41,6 +41,9 @@ Exec=sway --unsupported-gpu
 Type=Application
 DesktopNames=sway
 EOF
+
+## Configuring Asus Backlight
+sudo dnf update --refresh && sudo dnf install asusctl supergfxctl asusctl-rog-gui -y && sudo systemctl enable supergfxd.service && sudo systemctl start asusd && asusctl aura rainbow-cycle
 
 ## Configuring Packages
 mkdir -p ~/.config/sway/

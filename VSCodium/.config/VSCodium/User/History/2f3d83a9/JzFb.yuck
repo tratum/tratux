@@ -1,0 +1,32 @@
+(defwidget control_center
+  (box
+    :orientation "vertical"
+    :class "control-center"
+    :spacing 10
+    :padding 15
+    
+    (box :orientation "horizontal" :spacing 10
+      (button
+        :class "toggler"
+        :onclick "toggle_wifi"
+        (label :text "WiFi")
+      )
+      (button
+        :class "toggler"
+        :onclick "toggle_bluetooth"
+        (label :text "Bluetooth")
+      )
+    )
+    (button
+      :class "toggler"
+      :onclick "toggle_DND"
+      (label :text "Focus")
+    )
+    (button
+      :class "toggler"
+      :onclick "toggle_hotspot"
+      (label :text "Hotspot")
+      
+    )
+  )
+)

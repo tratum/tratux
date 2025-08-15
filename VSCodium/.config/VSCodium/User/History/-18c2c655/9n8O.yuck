@@ -1,0 +1,100 @@
+(defwidget quick_settings []
+  (box :orientation "v" :class "quick_settings_box" :space-evenly true
+    (box :orientation "h" :space-evenly true
+      (network))
+    (box :orientation "h" :space-evenly true
+      (bluetooth)
+      (others)
+    )
+  )
+)
+
+(defwidget quick_settings_button [action icon label class]
+  (button :onclick {action}
+          :class "quick_settings_button ${class}"
+          :style "background-image: url('control_center_icons/wifi.png');"
+          :class "wifi_icon"
+    (box :orientation "h" :space-evenly false
+      (box :orientation "h" :space-evenly false :halign "start"
+        (label :class "quick-settings-icon" :text {icon})
+      )
+      (box :orientation "v" :class "quick-settings-info" :space-evenly false :halign "end" :valign "center"
+        (box :orientation "h" :space-evenly false :halign "start"
+          (label :class "quick-settings-text" :text {label})
+        )
+        (box :orientation "h" :space-evenly false :halign "start"
+          (label :class "quick-settings-state" :text "Off")
+        )
+      )
+    )
+  )
+)
+
+(defwidget network []
+  (quick_settings_button
+    :action {network.essid == "lo" ? "XDG_CURRENT_DESKTOP='gnome' gnome-control-center wifi &" : "nmcli connection down id '${network.essid}'"}
+    :icon {network.essid == "lo" ? "󰤭" : network.signal == "" ? "󰤩" : network.signal < 25 ? "󰤟" : network.signal < 50 ? "󰤢" : network.signal < 75 ? "󰤥" : "󰤨"}
+    :label {network.essid == "lo" ? "Not connected" : network.essid}
+    :class "left-top-plite"
+  )
+)
+
+(defwidget quick_setting_button [action icon label class]
+  (button :onclick {action}
+          :class "quick_button ${class}"
+          :style "background-image: url('control_center_icons/bluetooth.png');"
+          :class "bluetooth_icon"
+    (box :orientation "h" :space-evenly false
+      (box :orientation "h" :space-evenly false :halign "start"
+        (label :class "quick-setting-icon" :text {icon})
+      )
+      (box :orientation "v" :class "quick-setting-info" :space-evenly false :halign "end" :valign "center"
+        (box :orientation "h" :space-evenly false :halign "start"
+          (label :class "quick-setting-text" :text {label})
+        )
+        (box :orientation "h" :space-evenly false :halign "start"
+          (label :class "quick-setting-state" :text "Off")
+        )
+      )
+    )
+  )
+)
+
+(defwidget bluetooth []
+  (quick_setting_button
+    :action "scripts/bluetooth.sh --toggle &"
+    :icon ""
+    :label ""
+    :class "left-center-plite"
+  )
+)
+
+(defwidget quick_button [action icon label class]
+  (button :onclick {action}
+          :class "quick_button ${class}"
+          :style "background-image: url('control_center_icons/left.png');"
+          :class "others_icon"
+    (box :orientation "h" :space-evenly false
+      (box :orientation "h" :space-evenly false :halign "start"
+        (label :class "quick-icon" :text {icon})
+      )
+      (box :orientation "v" :class "quick-info" :space-evenly false :halign "end" :valign "center"
+        (box :orientation "h" :space-evenly false :halign "start"
+          (label :class "quick-text" :text {label})
+        )
+        (box :orientation "h" :space-evenly false :halign "start"
+          (label :class "quick-state" :text "Off")
+        )
+      )
+    )
+  )
+)
+
+(defwidget others []
+  (quick_button
+    :action "gnome-control-center &"
+    :icon ""
+    :label ""
+    :class "left-bottom-plite"
+  )
+)

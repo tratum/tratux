@@ -1,0 +1,64 @@
+/* --- Overall Window --- */
+#window {
+    font-family: "Afacad Flux";
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #11092D;
+    min-width: 800px;
+    border-radius: 15px;
+}
+
+/* --- Outer Container --- */
+#outer-box {
+    background-color: #11092D;
+}
+
+/* --- Input (Search Bar) --- */
+#input {
+    font-family: "Afacad Flux";
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #11092D;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+/* --- Scroll Container --- */
+#scroll {
+    background-color: transparent;
+}
+
+/* --- Inner Container for Entries --- */
+#inner-box {
+    margin: 30px;
+    background-color: transparent;
+}
+
+/* --- Each Entry (Menu Item) --- */
+#entry {
+    padding: 40px 10px;
+    border-radius: 10px;
+    background-color: #281657;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+/* --- Selected (Focused) Entry --- */
+#entry:selected {
+    background-color: #DF5296;
+    color: #11092D;
+}
+
+/* --- Text within Each Entry --- */
+#text {
+    font-family: "Afacad Flux";
+    font-weight: bold;
+    font-size: 32px;
+    background-color: transparent;
+    text-justify: inter-word; /* Corrected from text-align */
+}
+
+/* --- Hide Images if Show-Icons is false --- */
+#img {
+    visibility: hidden; /* Corrected from display: none */
+}

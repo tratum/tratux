@@ -1,0 +1,13 @@
+2025-06-04 19:46:19.132 [info] Starting ZLS      0.14.0 @ '/home/tratum/Software/zig/zig-0.14/zls'
+2025-06-04 19:46:19.132 [info] Log File:         /home/tratum/.cache/zls/zls.log (info)
+2025-06-04 19:46:19.132 [info] Client Info:      VSCodium-1.100.2
+2025-06-04 19:46:19.132 [info] Autofix Mode:     source.fixall
+2025-06-04 19:46:19.132 [info] added Workspace Folder: file:///home/tratum/Coding/code.zig/basics
+2025-06-04 19:46:19.132 [info] Set config option 'global_cache_path' to "/home/tratum/.cache/zls"
+2025-06-04 19:46:19.230 [info] Set config option 'semantic_tokens' to "partial"
+2025-06-04 19:46:19.230 [info] Set config option 'highlight_global_var_declarations' to true
+2025-06-04 19:46:19.230 [info] Set config option 'builtin_path' to "/home/tratum/.cache/zls/builtin.zig"
+2025-06-04 19:46:19.230 [info] Set config option 'zig_lib_path' to "/home/tratum/Software/zig/zig-0.14/lib"
+2025-06-04 19:46:19.230 [info] Set config option 'zig_exe_path' to "/home/tratum/Software/zig/zig-0.14/zig"
+2025-06-04 19:46:19.230 [info] Set config option 'build_runner_path' to "/home/tratum/.cache/zls/build_runner/66ed948cb34b142db738951608c6140d/build_runner.zig"
+2025-06-04 19:46:19.230 [info] trying to start Build-On-Save for 'file:///home/tratum/Coding/code.zig/basics'

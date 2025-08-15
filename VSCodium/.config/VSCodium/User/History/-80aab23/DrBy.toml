@@ -1,0 +1,29 @@
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[colors.primary]
+background = "{{background}}"
+foreground = "{{foreground}}"
+
+[colors.cursor]
+cursor = "{{cursor}}"
+
+[colors.normal]
+black   = "{{color7}}"
+red     = "{{color6}}"
+green   = "{{color5}}"
+yellow  = "{{color4}}"
+blue    = "{{color3}}"
+magenta = "{{color2}}"
+cyan    = "{{color1}}"
+white   = "{{color15}}"
+
+[colors.bright]
+black   = "{{color8}}"
+red     = "{{color9}}"
+green   = "{{color10}}"
+yellow  = "{{color11}}"
+blue    = "{{color12}}"
+magenta = "{{color13}}"
+cyan    = "{{color14}}"
+white   = "{{color15}}"

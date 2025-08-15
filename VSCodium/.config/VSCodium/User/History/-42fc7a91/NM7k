@@ -1,0 +1,104 @@
+[global]
+
+    #### Display ####
+    monitor = 0
+    follow = none
+    width = 300
+    heigth = (0, 600)
+    origin = top-right
+    offset = (10, 50)
+    scale = 0
+    notification_limit = 20
+    progress_bar = false
+    indicate_hidden = yes
+    corner_radius = 20
+    frame_width = 0
+    corners = all
+    icon_corner_radius = 20
+    icon_corners = all
+    padding = 8
+    horizontal_padding = 18
+    gap_size = 10
+    separator_height = 0
+    sort = yes
+
+    #### Text #####
+    font = Afacad Flux 14
+    line_height = 0
+    markup = full
+    format = "<span font_desc='Afacad Flux Bold 16'><i>%s</i></span>\n%b"
+    alignment = left
+    ignore_newline = no
+    vertical_alignment = center
+    stack_duplicates = true
+    ellipsize = middle
+    hide_duplicate_count = false
+    show_indicators = yes
+
+    #### Icons ####
+    enable_recursive_icon_lookup = true
+    icon_theme = Win10Sur-dark
+    icon_position = left
+    min_icon_size = 32
+    max_icon_size = 48
+
+    #### History ####
+    sticky_history = yes
+    history_length = 20
+
+    #### Advanced ####
+    ignore_dbusclose = false
+    dmenu = /usr/bin/dmenu -p dunst:
+    browser = /usr/bin/xdg-open
+
+[urgency_low]
+    background = "#000000CC"
+    foreground = "#F5F5F5"
+    timeout = 10
+    default_icon = dialog-information
+
+[urgency_normal]
+    background = "#000000CC"
+    foreground = "#F5F5F5"
+    timeout = 10
+    override_pause_level = 30
+    default_icon = dialog-information
+
+[urgency_critical]
+    background = "#000000CC"
+    foreground = "#F5F5F5"
+    frame_width = 1
+    frame_color = "#C40234"
+    timeout = 0
+    override_pause_level = 60
+    default_icon = dialog-warning
+
+[brightness]
+    summary = *Brightness*
+    new_icon = "~/.config/dunst/icons/brightness-white.png"
+
+[networks]
+    summary = *networks*
+    new_icon = "~/.config/dunst/icons/wifi-white.png"
+
+[wifi]
+    summary = *wifi*
+    new_icon = "~/.config/dunst/icons/wifi-white.png"
+
+[volume]
+    summary = *Volume*
+    new_icon = "~/.config/dunst/icons/volume-white.png"
+
+[microphone]
+    summary = *Mic*
+    new_icon = "~/.config/dunst/icons/microphone-white.png"
+
+
+[Screenshot]
+    summary = *Screenshot*
+    new_icon = "~/.config/dunst/icons/screenshot.png"
+
+
+[Clipboard]
+    summary = *clipboard*
+    new_icon = "~/.config/dunst/icons/clipboard.png"

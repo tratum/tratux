@@ -1,0 +1,32 @@
+2025-06-02 16:49:51.326 [info] Started initializing default profile extensions in extensions installation folder. file:///home/tratum/.vscode-oss/extensions
+2025-06-02 16:49:51.387 [info] ComputeTargetPlatform: linux-x64
+2025-06-02 16:49:51.391 [warning] Failed to create default profile extensions manifest in extensions installation folder. file:///home/tratum/.vscode-oss/extensions Unable to create file 'vscode-userdata:/home/tratum/.vscode-oss/extensions/extensions.json' that already exists when overwrite flag is not set
+2025-06-02 16:49:51.392 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/tratum/.vscode-oss/extensions
+2025-06-02 17:03:22.766 [info] ComputeTargetPlatform: linux-x64
+2025-06-02 17:03:25.674 [info] Getting Manifest... ziglang.vscode-zig
+2025-06-02 17:03:27.218 [info] Installing extension: ziglang.vscode-zig {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/tratum/.vscode-oss/extensions/extensions.json","path":"/home/tratum/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.100.23258","date":"2025-05-15T18:24:48.143Z"}}
+2025-06-02 17:03:30.031 [info] Extracted extension to file:///home/tratum/.vscode-oss/extensions/ziglang.vscode-zig-0.6.10-universal: ziglang.vscode-zig
+2025-06-02 17:03:30.036 [info] Renamed to /home/tratum/.vscode-oss/extensions/ziglang.vscode-zig-0.6.10-universal
+2025-06-02 17:03:30.054 [info] Extension installed successfully: ziglang.vscode-zig vscode-userdata:/home/tratum/.vscode-oss/extensions/extensions.json
+2025-06-02 17:04:20.327 [info] Getting Manifest... esbenp.prettier-vscode
+2025-06-02 17:04:20.748 [info] Installing extension: esbenp.prettier-vscode {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/tratum/.vscode-oss/extensions/extensions.json","path":"/home/tratum/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.100.23258","date":"2025-05-15T18:24:48.143Z"}}
+2025-06-02 17:04:25.079 [info] Extracted extension to file:///home/tratum/.vscode-oss/extensions/esbenp.prettier-vscode-11.0.0-universal: esbenp.prettier-vscode
+2025-06-02 17:04:25.084 [info] Renamed to /home/tratum/.vscode-oss/extensions/esbenp.prettier-vscode-11.0.0-universal
+2025-06-02 17:04:25.101 [info] Extension installed successfully: esbenp.prettier-vscode vscode-userdata:/home/tratum/.vscode-oss/extensions/extensions.json
+2025-06-02 17:06:09.975 [info] Getting Manifest... psudo-dev.nebula-oni-theme
+2025-06-02 17:06:11.909 [info] Installing extension: psudo-dev.nebula-oni-theme {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/tratum/.vscode-oss/extensions/extensions.json","path":"/home/tratum/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.100.23258","date":"2025-05-15T18:24:48.143Z"}}
+2025-06-02 17:06:13.398 [info] Extracted extension to file:///home/tratum/.vscode-oss/extensions/psudo-dev.nebula-oni-theme-2.0.3-universal: psudo-dev.nebula-oni-theme
+2025-06-02 17:06:13.403 [info] Renamed to /home/tratum/.vscode-oss/extensions/psudo-dev.nebula-oni-theme-2.0.3-universal
+2025-06-02 17:06:13.416 [info] Extension installed successfully: psudo-dev.nebula-oni-theme vscode-userdata:/home/tratum/.vscode-oss/extensions/extensions.json
+2025-06-02 17:06:33.343 [info] Uninstalling extension from the profile: psudo-dev.nebula-oni-theme@2.0.3 vscode-userdata:/home/tratum/.vscode-oss/extensions/extensions.json
+2025-06-02 17:06:33.370 [info] Marked extension as removed psudo-dev.nebula-oni-theme-2.0.3-universal
+2025-06-02 17:06:33.876 [info] Successfully uninstalled extension from the profile psudo-dev.nebula-oni-theme@2.0.3 vscode-userdata:/home/tratum/.vscode-oss/extensions/extensions.json
+2025-06-02 17:06:41.224 [info] Getting Manifest... psudo-dev.nebula-oni-theme
+2025-06-02 17:06:41.656 [info] Installing extension: psudo-dev.nebula-oni-theme {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/tratum/.vscode-oss/extensions/extensions.json","path":"/home/tratum/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.100.23258","date":"2025-05-15T18:24:48.143Z"}}
+2025-06-02 17:06:41.709 [info] Removed the extension from removed list: psudo-dev.nebula-oni-theme
+2025-06-02 17:06:41.731 [info] Extension installed successfully: psudo-dev.nebula-oni-theme vscode-userdata:/home/tratum/.vscode-oss/extensions/extensions.json
+2025-06-02 17:12:54.543 [info] Getting Manifest... pkief.material-icon-theme
+2025-06-02 17:12:56.693 [info] Installing extension: pkief.material-icon-theme {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/tratum/.vscode-oss/extensions/extensions.json","path":"/home/tratum/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.100.23258","date":"2025-05-15T18:24:48.143Z"}}
+2025-06-02 17:13:16.416 [info] Extracted extension to file:///home/tratum/.vscode-oss/extensions/pkief.material-icon-theme-5.23.0-universal: pkief.material-icon-theme
+2025-06-02 17:13:16.453 [info] Renamed to /home/tratum/.vscode-oss/extensions/pkief.material-icon-theme-5.23.0-universal
+2025-06-02 17:13:16.472 [info] Extension installed successfully: pkief.material-icon-theme vscode-userdata:/home/tratum/.vscode-oss/extensions/extensions.json

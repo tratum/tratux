@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="64"
+   height="64"
+   version="1.1"
+   id="svg10"
+   sodipodi:docname="org.gabmus.giara.svg"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs14">
+    <linearGradient
+       id="linearGradient1005-3-3"
+       x1="5.2535"
+       x2="9.3823996"
+       y1="15.383"
+       y2="2.9421"
+       gradientTransform="matrix(3.7795,0,0,3.7795,7.56693,-33.735213)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#fa8200"
+         offset="0"
+         id="stop533" />
+      <stop
+         stop-color="#ff9600"
+         offset=".36953"
+         id="stop535" />
+      <stop
+         stop-color="#ffb400"
+         offset="1"
+         id="stop537" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient2116"
+       x1="33.835999"
+       x2="14.645"
+       y1="20.181"
+       y2="58.046001"
+       gradientTransform="matrix(1.0000071,0,0,1.0000071,-3.7837708e-4,-3.7837708e-4)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#ffb400"
+         offset="0"
+         id="stop1" />
+      <stop
+         stop-color="#fe9300"
+         offset=".60238"
+         id="stop2" />
+      <stop
+         stop-color="#fa8200"
+         offset="1"
+         id="stop3" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="namedview12"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="3.3203125"
+     inkscape:cx="-30.117647"
+     inkscape:cy="22.588235"
+     inkscape:window-width="1920"
+     inkscape:window-height="995"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg10" />
+  <rect
+     x="4.4996166"
+     y="4.4996166"
+     width="55.000767"
+     height="55.000767"
+     ry="13.000319"
+     fill="url(#linearGradient2116)"
+     stroke-width="2.12402"
+     id="rect3"
+     style="fill:url(#linearGradient2116)" />
+  <path
+     d="m 29.688,15.125 c -0.56646,0 -1.0255,0.43517 -1.0255,0.97507 v 3.9021 c 0,2.2156 -1.9338,5.3087 -3.8011,8.2375 -1.9748,3.0931 -5.9196,6.2928 -6.3044,9.2668 -0.04688,0.36294 -0.06054,0.71686 -0.05666,1.0654 12.316,0.40989 23.225,-6.4896 23.342,-6.5655 l 0.93759,-0.6031 c -0.61724,-1.0581 -2.4106,-2.1163 -3.0786,-3.1636 -1.8693,-2.9288 -4.2507,-6.0219 -4.2507,-8.2375 v -3.9021 c 0,-0.5399 -0.46098,-0.97507 -1.0274,-0.97507 z m 14.238,17.967 -0.74616,0.4749 c -6.1783,3.9346 -15.636,7.0548 -24.438,6.8833 1.2462,4.525 6.2095,7.5802 6.4635,7.7301 0.16603,0.0975 1.3322,0.69519 6.6783,0.69519 5.3442,0 6.692,-0.59768 6.8561,-0.69519 0.30865,-0.18056 7.5046,-4.563 6.6959,-10.738 -0.18556,-1.4102 -0.75593,-2.871 -1.5099,-4.3499 z"
+     fill="#ffffff"
+     stroke-width="3.375"
+     id="path6" />
+</svg>

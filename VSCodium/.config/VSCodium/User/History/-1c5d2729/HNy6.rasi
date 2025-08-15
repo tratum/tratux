@@ -1,0 +1,143 @@
+/*****----- Configuration -----*****/
+configuration {
+    show-icons: false;
+}
+
+/*****----- Global Properties -----*****/
+* {
+    /* Keep a standard background color variable (no alpha) */
+    background:       #11092D;
+    background-alt:   #281657;
+    foreground:       #FFFFFF;
+    selected:         #DF5296;
+    active:           #6E77FF;
+    urgent:           #8E3596;
+
+    font:             "Afacad Flux Bold 18";
+}
+
+/*
+USE_ICON=NO
+*/
+
+/*****----- Main Window -----*****/
+window {
+    /* “real” transparency + RGBA for partial translucency */
+    transparency:     "real";
+    location:         center;
+    anchor:           center;
+    fullscreen:       false;
+    width:            600px;
+    x-offset:         0px;
+    y-offset:         0px;
+    margin:           0px;
+    padding:          0px;
+    border:           0px solid;
+    border-radius:    20px;
+    border-color:     @selected;
+    cursor:           "default";
+
+    /* Use RGBA for partial translucency, e.g. ~85% opacity */
+    background-color: rgba(17,9,45,0.85);
+}
+
+/*****----- Main Box -----*****/
+mainbox {
+    enabled:          true;
+    spacing:          15px;
+    margin:           0px;
+    padding:          30px;
+    background-color: transparent;
+    orientation:      horizontal;
+    children:         [ "imagebox", "listview" ];
+}
+
+/*****----- Imagebox -----*****/
+imagebox {
+    border-radius:    20px;
+    background-color: transparent;
+
+    /* 
+       Use a gradient overlay plus your image 
+       for a tinted look. If this line still errors, 
+       remove the gradient portion:
+       linear-gradient(rgba(17,9,45,0.4), rgba(17,9,45,0.4)), 
+    */
+    background-image: linear-gradient(rgba(17,9,45,0.4), rgba(17,9,45,0.4)),
+                      url("~/.config/Screenshots/images/e.jpg", height);
+}
+
+/*****----- Hide Overlapping Elements -----*****/
+inputbar {
+    enabled: false;
+}
+message {
+    enabled: false;
+}
+textbox-prompt-colon {
+    enabled: false;
+}
+prompt {
+    enabled: false;
+}
+
+/*****----- Listview -----*****/
+listview {
+    enabled:          true;
+    columns:          6;
+    lines:            1;
+    cycle:            true;
+    scrollbar:        false;
+    layout:           vertical;
+    spacing:          5px;
+
+    /* Make listview transparent or partially translucent if you want. */
+    background-color: transparent;
+
+    cursor:           "default";
+}
+
+/*****----- Elements -----*****/
+element {
+    enabled:          true;
+    padding:          10px;
+    border:           0px solid;
+    border-radius:    15px;
+    border-color:     @selected;
+    background-color: transparent;
+    text-color:       @foreground;
+    cursor:           pointer;
+}
+
+element-text {
+    background-color: transparent;
+    text-color:       inherit;
+    cursor:           inherit;
+    vertical-align:   0.5;
+    horizontal-align: 0.0;
+}
+
+element normal.normal,
+element alternate.normal {
+    background-color: var(background);
+    text-color:       var(foreground);
+}
+
+element normal.urgent,
+element alternate.urgent,
+element selected.active {
+    background-color: var(urgent);
+    text-color:       var(background);
+}
+
+element normal.active,
+element alternate.active,
+element selected.urgent {
+    background-color: var(active);
+    text-color:       var(background);
+}
+
+element selected.normal {
+    background-color: var(selected);
+    text-color:       var(background);
+}

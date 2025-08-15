@@ -1,0 +1,6 @@
+[launcher]
+# Position the wofi menu at the center of the screen.
+location = center
+# Use 60% of the screen width and 80% of the screen height.
+width = 60%
+height = 80%

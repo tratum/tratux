@@ -1,0 +1,7 @@
+2025-06-07 22:25:58.078 [info] Started local extension host with pid 3753.
+2025-06-07 22:25:58.149 [info] ComputeTargetPlatform: linux-x64
+2025-06-07 22:26:00.931 [info] [perf] Render performance baseline is 47ms
+2025-06-07 22:26:02.500 [error] Error while getting the latest version for the extension esbenp.prettier-vscode. Offline
+2025-06-07 22:26:02.501 [error] Error while getting the latest version for the extension pkief.material-icon-theme. Offline
+2025-06-07 22:26:02.503 [error] Error while getting the latest version for the extension psudo-dev.nebula-oni-theme. Offline
+2025-06-07 22:26:02.504 [error] Error while getting the latest version for the extension ziglang.vscode-zig. Offline

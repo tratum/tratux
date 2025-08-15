@@ -1,0 +1,10 @@
+2025-06-02 16:49:50.964 [info] Started local extension host with pid 2717.
+2025-06-02 16:49:51.040 [info] Started initializing default profile extensions in extensions installation folder. file:///home/tratum/.vscode-oss/extensions
+2025-06-02 16:49:51.055 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-06-02 16:49:51.256 [info] ComputeTargetPlatform: linux-x64
+2025-06-02 16:49:51.343 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/tratum/.vscode-oss/extensions
+2025-06-02 16:49:54.534 [info] [perf] Render performance baseline is 28ms
+2025-06-02 17:06:36.600 [info] Started local extension host with pid 4559.
+2025-06-02 17:09:46.834 [info] Started local extension host with pid 4885.
+2025-06-02 17:09:47.121 [info] ComputeTargetPlatform: linux-x64
+2025-06-02 17:09:51.443 [info] [perf] Render performance baseline is 26ms
