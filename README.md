@@ -4,9 +4,13 @@
 
 ![Showcase](showcase.png)
 <p float="left">
-  <img src="dark-mode.png" width="49%" />
+  <img src="dark-mode.png" width="24%" />
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="light-mode.png" width="49%" />
+  <img src="light-mode.png" width="24%" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="snapmenu-dark.png" width="24%" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="snapmenu-dark.png" width="24%" />
 </p>
 
 ![PowerMenu](powermenu-dark.png)
