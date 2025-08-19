@@ -19,5 +19,11 @@
       // "j k": ["workspace::SendKeystrokes", "escape"]
       "ctrl-enter": "editor::NewlineBelow"
     }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "shift-t": "workspace::NewTerminal"
+    }
   }
 ]
