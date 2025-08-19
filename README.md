@@ -2,22 +2,34 @@
 
 ### Contains `dotfiles` of Linux OS Used By Me. This repo is GNU Stow Compatible
 
+![Showcase](showcase.png)
+<p float="left">
+  <img src="dark-mode.png" width="49%" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="light-mode.png" width="49%" />
+</p>
 
+![PowerMenu](powermenu-dark.png)
+
+![PowerMenu](powermenu-light.png)
 
 ### Steps To Replicate It For Your System
-  ```bash
-    sudo dnf install stow git -y
-    cd Downloads
-    git clone git@github.com:tratum/tratux.git dotfiles
-    cd dotfiles
-    stow */ ## to symlink all packages
-  ```
+
+```bash
+  sudo dnf install stow git -y
+  cd Downloads
+  git clone git@github.com:tratum/tratux.git dotfiles
+  cd dotfiles
+  stow */ ## to symlink all packages
+```
+
 ### Updating and Restowing Your Configuration
-  ```bash
-    cd dotfiles
-    git pull
-    stow -R */   # Restow everything to apply changes
-  ```
+
+```bash
+  cd dotfiles
+  git pull
+  stow -R */   # Restow everything to apply changes
+```
 
 ## Fedora Sway Branch
 
