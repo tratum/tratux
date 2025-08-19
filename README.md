@@ -3,19 +3,26 @@
 ### Contains `dotfiles` of Linux OS Used By Me. This repo is GNU Stow Compatible
 
 ![Showcase](showcase.png)
-<p float="left">
-  <img src="dark-mode.png" width="24%" />
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="light-mode.png" width="24%" />
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="snapmenu-dark.png" width="24%" />
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="snapmenu-dark.png" width="24%" />
+
+<p float="center">
+  <img src="dark-mode.png" width="49%" />
+  <img src="light-mode.png" width="49%" />
+</p>
+<p float="center">
+  <img src="snapmenu-dark.png" width="49%" />
+  <img src="snapmenu-light.png" width="49%" />
+</p>
+<p float="center">
+  <img src="powermenu-dark.png" width="49%" />
+  <img src="powermenu-light.png" width="49%" />
+</p>
+<p float="center">
+  <img src="keyhints-dark.png" width="49%" />
+  <img src="keyhints-light.png" width="49%" />
 </p>
 
-![PowerMenu](powermenu-dark.png)
-
-![PowerMenu](powermenu-light.png)
+![Wallpaper Menu](wallpapermenu.png)
+<br>
 
 ### Steps To Replicate It For Your System
 
