@@ -1,22 +1,23 @@
-# Tratux
+<h1 align="center">Tratux</h1>
 
-- ### Contains `dotfiles` of Linux OS Used By Me. This repo is GNU Stow Compatible
-<br>
+### Contains `dotfiles` of Linux OS Used By Me. This repo is GNU Stow Compatible
 
-    ### Steps To Replicate It For Your System
-      ```bash
-        sudo dnf install stow git -y
-        cd Downloads
-        git clone git@github.com:tratum/tratux.git dotfiles
-        cd dotfiles
-        stow */ ## to symlink all packages
-      ```
-    ### Updating and Restowing Your Configuration
-      ```bash
-        cd dotfiles
-        git pull
-        stow -R */   # Restow everything to apply changes
-      ```
+
+
+### Steps To Replicate It For Your System
+  ```bash
+    sudo dnf install stow git -y
+    cd Downloads
+    git clone git@github.com:tratum/tratux.git dotfiles
+    cd dotfiles
+    stow */ ## to symlink all packages
+  ```
+### Updating and Restowing Your Configuration
+  ```bash
+    cd dotfiles
+    git pull
+    stow -R */   # Restow everything to apply changes
+  ```
 
 ## Fedora Sway Branch
 
