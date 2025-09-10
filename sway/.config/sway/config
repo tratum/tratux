@@ -28,23 +28,23 @@ font pango:Afacad Flux Medium 20
 
 # Windows:
 
-for_window [class="Brave-browser"] opacity 0.9
-for_window [class="Chromium-browser"] opacity 0.9
-for_window [app_id="thunar"] opacity 0.9
-for_window [app_id="Thunar"] opacity 0.9
-for_window [app_id="org.gnome.Builder"] opacity 0.9
-for_window [class="VSCodium"] opacity 0.9
-for_window [app_id="org.gnome.baobab"] opacity 0.9
-for_window [title="Spotify"] opacity 0.9
-for_window [app_id="org.gnome.Software"] opacity 0.9
-for_window [app_id="dev.zed.Zed"] opacity 0.9
-for_window [app_id="org.gnome.World.PikaBackup"] opacity 0.9
-for_window [app_id="gnome-disks"] opacity 0.9
-for_window [app_id="org.gnome.World.Secrets"] opacity 0.9
-for_window [app_id="org.gnome.Settings"] opacity 0.9, floating enable, move position center
-for_window [app_id="org.gnome.gThumb"] opacity 0.9, floating enable, move position center, resize set 1600 1000
-for_window [app_id="blueman-manager"] opacity 0.9, floating enable, move position center, resize set 800 600
-for_window [app_id="nm-connection-editor"] opacity 0.9, floating enable, move position center, resize set 800 600
+for_window [class="Brave-browser"] opacity 0.95
+for_window [class="Chromium-browser"] opacity 0.95
+for_window [app_id="thunar"] opacity 0.95
+for_window [app_id="Thunar"] opacity 0.95
+for_window [app_id="org.gnome.Builder"] opacity 0.95
+for_window [class="VSCodium"] opacity 0.95
+for_window [app_id="org.gnome.baobab"] opacity 0.95
+for_window [title="Spotify"] opacity 0.95
+for_window [app_id="org.gnome.Software"] opacity 0.95
+for_window [app_id="dev.zed.Zed"] opacity 0.95
+for_window [app_id="org.gnome.World.PikaBackup"] opacity 0.95
+for_window [app_id="gnome-disks"] opacity 0.95
+for_window [app_id="org.gnome.World.Secrets"] opacity 0.95
+for_window [app_id="org.gnome.Settings"] opacity 0.95, floating enable, move position center
+for_window [app_id="org.gnome.gThumb"] opacity 0.95, floating enable, move position center, resize set 1600 1000
+for_window [app_id="blueman-manager"] opacity 0.95, floating enable, move position center, resize set 800 600
+for_window [app_id="nm-connection-editor"] opacity 0.95, floating enable, move position center, resize set 800 600
 
 ### Startup Applications----------------------------------------------------------------------------------
 
@@ -161,7 +161,7 @@ set $randomWallpaperSelector "~/.config/WallpaperSelector/randomWallpaper.sh"
     bindsym $mod+c exec hyprpicker --autocopy
 
     # Clip Manager
-    bindsym $mod+Alt+v exec $clipManager
+    bindsym $mod+v exec $clipManager
 
     # Keybinding Hints
     bindsym $mod+h exec $keyHints
@@ -171,7 +171,7 @@ set $randomWallpaperSelector "~/.config/WallpaperSelector/randomWallpaper.sh"
    
     # Screenshot Menu
     bindsym $mod+Shift+s exec $screenshotMenu
-    
+  
     # Reload Sway
     bindsym $mod+Shift+c reload
 
@@ -180,6 +180,9 @@ set $randomWallpaperSelector "~/.config/WallpaperSelector/randomWallpaper.sh"
 
     # Screen Lock
     bindsym Ctrl+Alt+L exec loginctl lock-session
+
+    # Kill rofi
+    bindsym $mod+r exec pkill rofi
 
     # Change Wallpaper
     bindsym $mod+w exec $wallpaperSelector

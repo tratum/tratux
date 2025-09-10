@@ -8,6 +8,7 @@ CURR_WALL="$HOME/.config/.current_wallpaper"
 WAYBAR_STYLE="$HOME/.config/waybar/style.css"
 WAYBAR_DARK="$HOME/.config/waybar/styles/dark.css"
 WAYBAR_LIGHT="$HOME/.config/waybar/styles/light.css"
+ALACRITTY_CONFIG="$HOME/.config/alacritty/alacritty.toml"
 GTK3_CONFIG="$HOME/.config/gtk-3.0"
 GTK4_CONFIG="$HOME/.config/gtk-4.0"
 
@@ -84,6 +85,13 @@ pallet_generator() {
   esac
 }
 
+alacritty_theme_changer() {
+  case "$1" in
+    d) sed -i '2 c import = ["~/.config/alacritty/themes/dark.toml"]' "$ALACRITTY_CONFIG" ;;
+    l) sed -i '2 c import = ["~/.config/alacritty/themes/light.toml"]' "$ALACRITTY_CONFIG" ;;
+  esac
+}
+
 send_notification() {
   dunstify -u low -i preferences-desktop-theme "$1 Mode"
 }
@@ -92,7 +100,7 @@ system_reload() {
   sleep 1
   for pid in waybar rofi swaync ags swaybg; do
     killall "$pid" 2>/dev/null
-  done  
+  done
   sleep 1
   "$SCRIPTS_DIR/refresh.sh"
   sleep 0.5
@@ -101,7 +109,7 @@ system_reload() {
     dark) send_notification "Dark" ;;
     light) send_notification "Light" ;;
   esac
-  
+
   exit 0
 }
 
@@ -110,6 +118,7 @@ while getopts "dl" opt; do
   update_waybar "$opt"
   pallet_generator "$opt"
   update_gtk_theming "$opt"
+  alacritty_theme_changer "$opt"
   theme_tracker "$opt"
 done
 
