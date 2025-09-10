@@ -12,11 +12,20 @@
   "ui_font_size": 24,
   "buffer_font_size": 20,
   "theme": {
-    "mode": "system",
-    "light": "Hex Light Theme",
+    "mode": "dark",
+    "light": "macOS Classic Light",
     "dark": "Colorizer"
   },
   "icon_theme": "Material Icon Theme",
+  "tab_size": 2,
+  "format_on_save": "on",
+  "use_autoclose": true,
+  "show_whitespaces": "all",
+  "soft_wrap": "editor_width",
+  "unnecessary_code_fade": 0.5,
+  "restore_on_startup": "last_session",
+  "remove_trailing_whitespace_on_save": true,
+  "show_edit_predictions": false,
   "tabs": {
     "file_icons": true,
     "git_status": true
@@ -40,6 +49,12 @@
   "centered_layout": {
     "left_padding": 0.2,
     "right_padding": 0.2
+  },
+  "inlay_hints": {
+    "enabled": true,
+    "show_type_hints": true,
+    "show_parameter_hints": true,
+    "show_other_hints": true
   },
   "terminal": {
     "toolbar": {
@@ -96,12 +111,98 @@
       "milliseconds": 500
     }
   },
-  "tab_size": 2,
-  "format_on_save": "on",
-  "use_autoclose": true,
-  "show_whitespaces": "all",
-  "soft_wrap": "editor_width",
-  "unnecessary_code_fade": 0.5,
-  "remove_trailing_whitespace_on_save": true,
-  "restore_on_startup": "last_session"
+  "languages": {
+    "Zig": {
+      "tab_size": 2,
+      "language_servers": ["zls"],
+      "formatter": "language_server",
+      "format_on_save": "language_server",
+      "remove_trailing_whitespace_on_save": true
+    },
+    "Java": {
+      "tab_size": 2,
+      "language_servers": ["jdtls"],
+      "formatter": "prettier",
+      "format_on_save": "on",
+      "remove_trailing_whitespace_on_save": true
+    },
+    "Python": {
+      "tab_size": 2,
+      "language_servers": ["ruff"],
+      "format_on_save": "language_server",
+      "formatter": [
+        {
+          "code_actions": {
+            "source.organizeImports.ruff": true,
+            "source.fixAll.ruff": true
+          }
+        },
+        {
+          "language_server": {
+            "name": "ruff"
+          }
+        }
+      ],
+      "remove_trailing_whitespace_on_save": true
+    },
+    "TypeScript": {
+      "language_servers": ["typescript-language-server", "!vtsls", "..."]
+    },
+    "TSX": {
+      "language_servers": ["typescript-language-server", "!vtsls", "..."]
+    },
+    "JavaScript": {
+      "language_servers": ["typescript-language-server", "!vtsls", "..."]
+    }
+  },
+  "lsp": {
+    "zls": {
+      "binary": {
+        "path": "/home/tratum/Software/zig/zig-0.14/zls"
+      },
+      "initialization_options": {
+        "enable_build_on_save": true,
+        "enable_autofix": true,
+        "warn_style": true,
+        "highlight_global_var_declarations": true
+      }
+    },
+    "jdtls": {
+      "binary": {
+        "path": "/home/tratum/Software/java/jdtls/bin/jdtls",
+        "env": {
+          "JAVA_HOME": "/home/tratum/Software/java/jdk-24.0.2"
+        },
+        "ignore_system_version": true
+      },
+      "initialization_options": {
+        "settings": {
+          "java": {
+            "home": "/home/tratum/Software/java/jdk-24.0.2",
+            "trace": { "server": "off" },
+            "format": { "enabled": false },
+            "referencesCodeLens": { "enabled": true },
+            "signatureHelp": { "enabled": true },
+            "implementationsCodeLens": { "enabled": true },
+            "saveActions": { "organizeImports": true },
+            "jdt": {
+              "ls": {
+                "lombokSupport": { "enabled": true }
+              }
+            }
+          }
+        }
+      }
+    },
+    "ruff": {
+      "initialization_options": {
+        "settings": {
+          "lineLength": 80,
+          "lint": {
+            "extendSelect": ["I"]
+          }
+        }
+      }
+    }
+  }
 }

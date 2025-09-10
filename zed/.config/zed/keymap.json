@@ -25,5 +25,17 @@
     "bindings": {
       "shift-t": "workspace::NewTerminal"
     }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-shift-a": "editor::ToggleCodeActions"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "alt-space": "workspace::ToggleBottomDock"
+    }
   }
 ]
