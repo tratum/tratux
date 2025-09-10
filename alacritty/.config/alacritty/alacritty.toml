@@ -1,5 +1,5 @@
 [general]
-import = ["~/.config/alacritty/wallust.alacritty.toml"]
+import = ["~/.config/alacritty/themes/dark.toml"]
 live_config_reload = true
 
 [bell]
@@ -51,7 +51,7 @@ semantic_escape_chars = ",│`|:\"' ()[]{}<>"
 program = "/bin/zsh"
 
 [window]
-opacity = 0.6
+opacity = 0.8
 blur = true
 decorations = "None"
 dynamic_title = true

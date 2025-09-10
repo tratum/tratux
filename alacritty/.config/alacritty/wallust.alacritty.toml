@@ -2,28 +2,28 @@
 draw_bold_text_with_bright_colors = true
 
 [colors.primary]
-background = "#081114"
-foreground = "#888FA0"
+background = "#222224"
+foreground = "#E2DBCC"
 
 [colors.cursor]
-cursor = "#BCB89D"
+cursor = "#A2A1A5"
 
 [colors.normal]
-black   = "#353E42"
-red     = "#3193B9"
-green   = "#958224"
-yellow  = "#69328D"
-blue    = "#258978"
-magenta = "#982949"
-cyan    = "#1F346A"
-white   = "#888FA0"
+black   = "#4D4D50"
+red     = "#202659"
+green   = "#2A3577"
+yellow  = "#87315E"
+blue    = "#823690"
+magenta = "#A73735"
+cyan    = "#A17E33"
+white   = "#E2DBCC"
 
 [colors.bright]
-black   = "#5F6470"
-red     = "#41C4F7"
-green   = "#C6AD30"
-yellow  = "#8C43BC"
-blue    = "#188875"
-magenta = "#B0294F"
-cyan    = "#223B7A"
-white   = "#888FA0"
+black   = "#9E998E"
+red     = "#232A63"
+green   = "#313D8B"
+yellow  = "#973569"
+blue    = "#973EA7"
+magenta = "#D84643"
+cyan    = "#D6A844"
+white   = "#E2DBCC"
