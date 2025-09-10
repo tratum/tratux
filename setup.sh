@@ -12,7 +12,7 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 flatpak remote-add --if-not-exists fedora oci+https://registry.fedoraproject.org
 
 ## Installing Packages
-sudo dnf install zsh git fastfetch flatpak htop btop nvtop alacritty waybar swww rofi-wayland hyprlock hypridle power-profiles-daemon wofi pamixer blueman grim slurp wl-clipboard jq dkms kernel-devel dunst libnotify sddm qt6-qtsvg qt6-qtvirtualkeyboard qt6-qtmultimedia chromium procs lshw gnome-software gnome-control-center -y
+sudo dnf install zsh git fastfetch flatpak htop btop nvtop alacritty waybar swww rofi-wayland hyprlock hypridle hyprpicker power-profiles-daemon wofi pamixer blueman grim slurp wl-clipboard jq dkms kernel-devel dunst libnotify sddm qt6-qtsvg qt6-qtvirtualkeyboard qt6-qtmultimedia chromium procs lshw gnome-software gnome-control-center -y
 
 ## FlatPak Packages Used
 flatpak install flathub org.gnome.gThumb org.gnome.Builder org.gnome.World.Secrets org.gnome.Papers com.spotify.Client -y
